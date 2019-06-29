@@ -21,7 +21,7 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 * Repositório de código no [GitHub](https://github.com/lucastagliani/notes-webapi-nodejs), mas de forma particular, respeitando o critério de não compartilhar esta solução;
 * Gerenciamento de pacotes com [NPM](https://www.npmjs.com/);
 * Padronização de código com [ESLint](https://eslint.org/) e [EditorConfig](https://editorconfig.org/);
-* Conteinerização com [Docker](https://www.docker.com/);
+* Containerização com [Docker](https://www.docker.com/);
 * Integração contínua com [CircleCI](https://circleci.com/);
 * Versão publicada em [Heroku](https://www.heroku.com/), mas sem compartilhar com ninguém o endereço;
 * Testes unitários com [Chai](https://www.chaijs.com/);
@@ -44,6 +44,8 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 
 * Cada `commit` feito no código fonte, uma tarefa será disparada pelo _lint_ para manter a padronização de código num certo nível.
 
+* Os _commits_ foram feitos em inglês e padronizados [nesta convensão](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716).
+
 ## O que pode ser melhorado:
 
 * Tratamento de erros de API externa;
@@ -64,9 +66,15 @@ IMAGEM
 
 2. Você precisa instalar as dependências, então  execute `npm install` na linha de comando e aguarde o término de sua execução.
 
-3. Agora vamos lá, existem duas formas de iniciar a aplicação:
+3. Agora vamos lá, existem três formas de iniciar a aplicação:
 
   Na mais tradicional, execute `npm start` no seu terminal.
+
+  OU
+
+  Para compilar o container da aplicação, execute: `docker build -t newyorktimes-spa-vuejs .`
+
+  E, para executá-lo, execute: `docker run -it -p 3000:3000 --rm --name my-app newyorktimes-spa-vuejs`
 
   OU
 
@@ -75,6 +83,12 @@ IMAGEM
 Em ambos casos, você poderá acessar o sistema em `http://localhost:3000` - A menos que a variável de ambiente `PORT` tenha algum valor customizado no seu computador.
 
 IMAGEM
+
+Para parar a execução do sistema, um CTRL + C no terminal deve bastar.
+
+Após isto, se você quiser parar o container da segunda opção, precisará do comando `docker stop`. Pode ver a [documentação aqui](https://docs.docker.com/engine/reference/commandline/stop/).
+
+Ou se você quiserar parar corretamente o que foi executado na terceira opção, precisará do comando `docker-compose down`. Veja mais [aqui](https://docs.docker.com/compose/reference/down/).
 
 ## Outros comandos úteis:
 
