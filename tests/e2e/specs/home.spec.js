@@ -9,6 +9,15 @@ const selectors = {
 };
 
 describe('Home page', () => {
+  it.only('Should redirect to /nyttop if hit /', () => {
+    // Given ...
+    // When I visit the root path
+    cy.visit('/');
+
+    // Then the URL should be redirected to '/nyttop'
+    cy.url().should('contain', '/nyttop');
+  });
+
   it('Should see articles on home page', () => {
     // Given I am at home page
     // When the page is loaded
