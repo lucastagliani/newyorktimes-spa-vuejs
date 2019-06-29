@@ -35,7 +35,7 @@ jobs:
 
       # run tests!
       # - run: npm run test:unit
-      # - run: npm run test:e2e:headless
+      # - run: npm run test:e2e:headless # TODO: https://github.com/cypress-io/cypress-docker-images/issues/39
   
   deploy:
     docker:
