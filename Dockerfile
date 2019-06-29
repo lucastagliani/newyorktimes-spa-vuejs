@@ -1,22 +1,20 @@
-FROM node:lts-alpine
+FROM node:8
 
-# instala um servidor http simples para servir conteúdo estático
-RUN npm install -g http-server
+# Create app directory
+WORKDIR /usr/src/app
 
-# faz da pasta 'app' o diretório atual de trabalho
-WORKDIR /app
-
-# copia os arquivos 'package.json' e 'package-lock.json' (se disponível)
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
 COPY package*.json ./
 
-# instala dependências do projeto
 RUN npm install
+# If you are building your code for production
+# RUN npm ci --only=production
 
-# copia arquivos e pastas para o diretório atual de trabalho (pasta 'app')
+# Bundle app source
 COPY . .
 
-# compila a aplicação de produção com minificação
-RUN npm run build
+EXPOSE 3000
 
-EXPOSE 8080
-CMD [ "http-server", "dist" ]
+CMD [ "npm", "start" ]

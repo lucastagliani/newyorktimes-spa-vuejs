@@ -3,14 +3,15 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
+    "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:e2e:headless": "cypress run",
-    "test:unit": "vue-cli-service test:unit",
-    "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
-    "start": "node server.js"
+    "test:unit": "vue-cli-service test:unit"
+    
   },
   "dependencies": {
     "core-js": "^2.6.5",

@@ -34,8 +34,8 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm run test:unit
-      - run: npm run test:e2e:headless
+      # - run: npm run test:unit
+      # - run: npm run test:e2e:headless
   
   deploy:
     docker:
