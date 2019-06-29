@@ -4,16 +4,18 @@ import Home from './views/Home.vue';
 
 Vue.use(Router);
 
+const basePath = '/nyttop';
+
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
       path: '*',
-      redirect: '/nyttop',
+      redirect: basePath,
     },
     {
-      path: '/nyttop',
+      path: basePath,
       name: 'home',
       component: Home,
     },
