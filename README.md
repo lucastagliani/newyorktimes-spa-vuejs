@@ -30,7 +30,6 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 
 ## Das bibliotecas e ferramentas utilizadas:
 
-
 * Apesar de Angular 2+ com _typescript_ ser a estrutura de _front-end_ que tenho mais conhecimento, escolhi Vue.js com o objetivo de aproveitar este projeto para aprofundar meus conhecimentos nesta estrutura que estou usando profissionalmente desde fev/2019.
 * [Bulma.io]() por ser uma biblioteca simples de CSS e ajudar na construção da interface;
 * [Mixpanel]() para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles;
@@ -66,6 +65,7 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 * Carregamento ocioso nos artigos de cada seção conforme o usuário fosse rolando a tela para baixo;
 * Uso de variáveis no CSS;
 * Diversos TODOs no código;
+* Testes funcionais e2e deveriam usar COMMANDS para requisitar seções ou artigos;
 
 ## Pré-requisitos para rodar a aplicação
 
