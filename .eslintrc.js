@@ -10,7 +10,7 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'prd' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'prd' ? 'error' : 'off',
-    'no-use-before-define': ['error', { functions: false }],
+    'no-await-in-loop': 0,
   },
   parserOptions: {
     parser: 'babel-eslint',
