@@ -1,0 +1,30 @@
+[
+  {
+    "name": "science_technology",
+    "slugs": ["science", "technology"],
+    "title": "Science & Tech",
+    "icon": "flask",
+    "description": "Are we already in the future?"
+  },
+  {
+    "name": "health",
+    "slugs": ["health"],
+    "title": "Health",
+    "icon": "heartbeat",
+    "description": "How can I become a healthier person today?"
+  },
+  {
+    "name": "politics",
+    "slugs": ["politics"],
+    "title": "Politics",
+    "icon": "balance-scale",
+    "description": "What is happening in the politics scenario nowadays?"
+  },
+  {
+    "name": "world",
+    "slugs": ["world"],
+    "title": "World",
+    "icon": "globe",
+    "description": "What is new around the globe?"
+  }
+]
