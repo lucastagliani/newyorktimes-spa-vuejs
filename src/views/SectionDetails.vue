@@ -52,7 +52,7 @@ import articleService from '@/services/articleService';
 import sectionService from '@/services/sectionService';
 
 export default {
-  name: 'sectionDetails',
+  name: 'section-details',
   components: {
     ArticleCard,
     NoDataToDisplay,

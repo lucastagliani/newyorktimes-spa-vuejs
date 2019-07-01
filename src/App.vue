@@ -15,18 +15,9 @@
   .card {
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.08);
     border: 1px solid #e6ebf1;
-    height: 240px;
     overflow: hidden;
     position: relative;
     transition: all 240ms;
-
-    .description {
-      color: #231f20;
-      font-size: 14px;
-      height: 5.5rem;
-      margin-top: 0.25rem;
-      opacity: 0.7;
-    }
 
     &:hover {
       border-color: #cad5e3;

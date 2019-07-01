@@ -22,7 +22,7 @@
     <div class="level">
       <div class="level-left">
         <div class="level-item">
-          <!-- This level-left item is necessary to level-right works -->
+          <!-- This level-left item is necessary to level-right works properly -->
         </div>
       </div>
       <div class="level-right">
@@ -39,7 +39,7 @@
 
 <script>
 export default {
-  name: 'ArticleCard',
+  name: 'article-card',
   props: {
     title: String,
     context: String,

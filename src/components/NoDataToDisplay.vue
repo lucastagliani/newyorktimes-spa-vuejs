@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'noDataToDisplay',
+  name: 'no-data-to-display',
   props: {
     message: String,
   },

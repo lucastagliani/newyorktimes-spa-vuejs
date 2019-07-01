@@ -1,12 +1,7 @@
-# Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
 version: 2
 jobs:
   build:
     docker:
-      # specify the version you desire here
       - image: circleci/node:7.10
 
       # Specify service dependencies here if necessary
@@ -34,9 +29,9 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      # - run: npm run test:unit
+      - run: npm run test:unit
       # - run: npm run test:e2e:headless # TODO: https://github.com/cypress-io/cypress-docker-images/issues/39
-  
+
   deploy:
     docker:
       - image: buildpack-deps:trusty
@@ -46,7 +41,7 @@ jobs:
           name: Deploy Master to Heroku
           command: |
             git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
-            
+
 workflows:
   version: 2
   build-deploy:
