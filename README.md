@@ -39,8 +39,8 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 
 * Apesar de Angular 2+ com _typescript_ ser a estrutura de _front-end_ que tenho mais conhecimento, escolhi Vue.js com o objetivo de aproveitar este projeto para aprofundar meus conhecimentos nesta biblioteca que uso profissionalmente há 5 meses.
 * Bulma.io por ser uma biblioteca simples de CSS e ajudar na construção da interface;
-* Mixpanel para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles;
-* axios para fazer as requisições HTTP na API;
+* Mixpanel para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles; (linkar imagem "mixpanel-conversion-funil.png");
+* axios para fazer as requisições HTTP na API do "nytimes";
 
 ## O que foi feito:
 

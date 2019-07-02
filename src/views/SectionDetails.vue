@@ -87,6 +87,10 @@ export default {
       return this.articles && this.articles.length > 0;
     },
     getIdFromArticleShortUrl(shortUrl) {
+      if (!shortUrl) {
+        return {};
+      }
+
       const shortUrlSplitedBySlash = shortUrl.split('/');
       return shortUrlSplitedBySlash[shortUrlSplitedBySlash.length - 1];
     },
