@@ -13,7 +13,7 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: `${basePath}/:section/:articleId`,
+      path: `${basePath}/:section/:title`,
       name: 'article-details',
       component: ArticleDetails,
     },

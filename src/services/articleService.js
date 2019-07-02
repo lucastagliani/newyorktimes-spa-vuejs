@@ -1,7 +1,6 @@
 import nytimes from '@/http/nytimes';
 
 const LIMIT_ARTICLES_TO_DISPLAY = 12;
-const BASE_SHORT_URL = 'https://nyti.ms';
 
 const areSectionsValid = sections => sections && sections.length > 0;
 
@@ -36,11 +35,12 @@ const orderByPublishedDateDesc = (prev, next) => {
 
 const getArticlesWithLimit = (articles, limit) => articles.slice(0, limit);
 
-const findArticleById = (articles, articleId) => {
-  const shortUrl = `${BASE_SHORT_URL}/${articleId}`;
-  return articles.find(a => a.short_url === shortUrl);
-};
+const removeSomeSpecialChars = text => text.replace(/\//g, '').replace(/\?/g, '');
 
+const findArticleByTitle = (articles, title) => {
+  const titleWithoutSpecialChars = removeSomeSpecialChars(title);
+  return articles.find(a => removeSomeSpecialChars(a.title) === titleWithoutSpecialChars);
+};
 const getArticles = async (sections) => {
   if (!areSectionsValid(sections)) {
     return [];
@@ -56,13 +56,14 @@ const getArticles = async (sections) => {
   return articles;
 };
 
-const getArticle = async (articleId, sections) => {
+const getArticle = async (title, sections) => {
   if (!areSectionsValid(sections)) {
     return {};
   }
 
   const articles = await getArticlesFromSections(sections);
-  const article = findArticleById(articles, articleId);
+  const article = findArticleByTitle(articles, title);
+
   return article;
 };
 

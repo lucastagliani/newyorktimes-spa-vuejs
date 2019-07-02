@@ -28,7 +28,7 @@
               :key="item[index]"
               class="column is-4-widescreen is-6"
             >
-              <a @click="goToArticleDetails(item.short_url)" class="box card">
+              <a @click="goToArticleDetails(item.title)" class="box card">
                 <ArticleCard
                   :title="item.title"
                   :context="item.subsection || item.section"
@@ -97,9 +97,9 @@ export default {
     goBackToHome() {
       this.$router.push({ name: 'home' });
     },
-    goToArticleDetails(shortUrl) {
+    goToArticleDetails(title) {
       this.$router.push({
-        path: `/nyttop/${this.section.name}/${this.getIdFromArticleShortUrl(shortUrl)}`,
+        path: `/nyttop/${this.section.name}/${title.replace(/\//g, '')}`,
       });
     },
   },

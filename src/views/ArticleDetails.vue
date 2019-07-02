@@ -82,7 +82,7 @@ export default {
   async mounted() {
     const section = sectionService.getSectionByName(this.$route.params.section);
     const nytimesArticle = await articleService.getArticle(
-      this.$route.params.articleId,
+      this.$route.params.title,
       section.slugs,
     );
 
