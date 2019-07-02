@@ -30,10 +30,11 @@ jobs:
 
       - setup_remote_docker
       # run tests!
-      # - run: npm run test:unit # TODO: install dependencies
+      - run: docker-compose build
       - run: docker-compose up -d
       - run: docker exec newyorktimes-spa-vuejs npm run test:e2e:headless
       - run: docker-compose down
+      - run: docker exec newyorktimes-spa-vuejs npm run test:unit # TODO: install dependencies
       # - run: docker exec npm run test:e2e:headless # TODO: https://github.com/cypress-io/cypress-docker-images/issues/39
 
   deploy:
