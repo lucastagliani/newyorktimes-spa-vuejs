@@ -28,9 +28,10 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - setup_remote_docker
       # run tests!
       # - run: npm run test:unit # TODO: install dependencies
-      - run: docker-compose up
+      - run: docker-compose up -d
       - run: docker exec newyorktimes-spa-vuejs npm run test:e2e:headless
       - run: docker-compose down
       # - run: docker exec npm run test:e2e:headless # TODO: https://github.com/cypress-io/cypress-docker-images/issues/39
