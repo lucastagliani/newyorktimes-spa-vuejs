@@ -27,11 +27,12 @@ describe('SectionCard.vue', () => {
     expect(wrapper.text()).to.include(fakeSection.description);
   });
 
-  it('renders props.icon as fontawesome icon when passed', () => {
+  it('renders props.icon as fontawesome icon when passed, but not as text', () => {
     const wrapper = shallowMount(SectionCard, {
       propsData: { icon: fakeSection.icon },
       stubs: { RouterLink: RouterLinkStub },
     });
-    expect(wrapper.html()).to.include(`<i class="fas fa-${fakeSection.icon}"></i>`);
+    expect(wrapper.html()).to.include(`fas fa-2x fa-${fakeSection.icon}"`);
+    expect(wrapper.text()).not.to.include(fakeSection.icon);
   });
 });

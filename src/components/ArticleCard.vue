@@ -1,8 +1,8 @@
 <template>
-  <router-link :to="{ path: `/nyttop/section/id` }" class="box card">
+  <div>
     <div class="level">
       <div class="level-left">
-        <div class="level-item has-text-grey is-italic">
+        <div class="level-item has-text-grey is-italic" v-if="context">
           <span class="icon">
             <i class="fas fa-tags"></i>
           </span>
@@ -10,11 +10,11 @@
         </div>
       </div>
       <div class="level-right">
-        <div class="level-item has-text-grey">
+        <div class="level-item has-text-grey" v-if="publishedDate">
           <span class="icon">
             <i class="fas fa-calendar-alt"></i>
           </span>
-          <span class="is-size-7">{{ new Date(published_date).toLocaleString() }}</span>
+          <span class="is-size-7">{{ new Date(publishedDate).toLocaleString() }}</span>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="level-right">
-        <div class="level-item has-text-grey">
+        <div class="level-item has-text-grey" v-if="byline">
           <span class="icon">
             <i class="fas fa-at"></i>
           </span>
@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-  </router-link>
+  </div>
 </template>
 
 <script>
@@ -43,7 +43,7 @@ export default {
   props: {
     title: String,
     context: String,
-    published_date: String,
+    publishedDate: String,
     byline: String,
   },
 };

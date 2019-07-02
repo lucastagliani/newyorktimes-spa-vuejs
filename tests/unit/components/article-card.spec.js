@@ -26,9 +26,9 @@ describe('ArticleCard.vue', () => {
     expect(wrapper.text()).to.include(fakeArticle.context);
   });
 
-  it('renders props.published_date as locale datetime when passed', () => {
+  it('renders props.publishedDate as locale datetime when passed', () => {
     const wrapper = shallowMount(ArticleCard, {
-      propsData: { published_date: fakeArticle.published_date },
+      propsData: { publishedDate: fakeArticle.published_date },
       stubs: { RouterLink: RouterLinkStub },
     });
 

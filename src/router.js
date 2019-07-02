@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
 import SectionDetails from './views/SectionDetails.vue';
+import ArticleDetails from './views/ArticleDetails.vue';
 
 Vue.use(Router);
 
@@ -12,8 +13,13 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
+      path: `${basePath}/:section/:articleId`,
+      name: 'article-details',
+      component: ArticleDetails,
+    },
+    {
       path: `${basePath}/:section`,
-      name: 'sectionDetails',
+      name: 'section-details',
       component: SectionDetails,
     },
     {
@@ -25,10 +31,5 @@ export default new Router({
       path: '*',
       redirect: basePath,
     },
-    // {
-    //   path: `${basePath}/:section/:articleId`,
-    //   name: 'article',
-    //   component: ArticleDetails,
-    // },
   ],
 });

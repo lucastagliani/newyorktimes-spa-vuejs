@@ -57,11 +57,10 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 
 ## O que pode ser melhorado:
 
-* Adicionar imagens nos cartões dos artigos;
-* Criar caminho de navegação (_breadcrumb_);
-* Experiência de usabilidade em dispositivos móveis;
-* Melhorar tratamento de erros de API externa;
 * Melhorar gerenciamento de dados com [Vuex](https://vuex.vuejs.org/ptbr/guide/state.html);
+* Adicionar imagens nos cartões dos artigos pra chamar mais atenção das pessoas usuárias;
+* Criar caminho de navegação (_breadcrumb_) entre as páginas;
+* Melhorar tratamento de erros de API externa;
 * Carregamento ocioso nos artigos de cada seção conforme o usuário fosse rolando a tela para baixo;
 * Uso de variáveis no CSS;
 * Diversos TODOs no código;

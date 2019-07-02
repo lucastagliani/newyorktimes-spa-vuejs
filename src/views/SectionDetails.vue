@@ -5,7 +5,7 @@
         <div class="level">
           <div class="level-left">
             <div class="level-item">
-              <router-link :to="{ name: 'home' }" class="button is-text">Back to home</router-link>
+              <button @click="goBackToHome()" class="button is-text">Back to home</button>
             </div>
           </div>
         </div>
@@ -28,12 +28,16 @@
               :key="item[index]"
               class="column is-4-widescreen is-6"
             >
-              <ArticleCard
-                :title="item.title"
-                :context="item.subsection || item.section"
-                :published_date="item.published_date"
-                :byline="item.byline"
-              ></ArticleCard>
+              <a @click="goToArticleDetails(item.short_url)" class="box card">
+                <ArticleCard
+                  :title="item.title"
+                  :context="item.subsection || item.section"
+                  :publishedDate="item.published_date"
+                  :shortUrl="item.short_url"
+                  :section="item.section"
+                  :byline="item.byline"
+                ></ArticleCard>
+              </a>
             </div>
           </div>
         </template>
@@ -67,14 +71,32 @@ export default {
   },
   async mounted() {
     const sectionName = this.$route.params.section;
-    window.mixpanel.track('Load section', { section_name: sectionName });
     this.section = sectionService.getSectionByName(sectionName);
+
+    if (!this.section || !Object.keys(this.section).length) {
+      this.goBackToHome();
+      return;
+    }
+
+    window.mixpanel.track('Load section', { section_name: this.section.name });
     this.articles = await articleService.getArticles(this.section.slugs);
     this.loading = false;
   },
   methods: {
     hasArticlesToDisplay() {
       return this.articles && this.articles.length > 0;
+    },
+    getIdFromArticleShortUrl(shortUrl) {
+      const shortUrlSplitedBySlash = shortUrl.split('/');
+      return shortUrlSplitedBySlash[shortUrlSplitedBySlash.length - 1];
+    },
+    goBackToHome() {
+      this.$router.push({ name: 'home' });
+    },
+    goToArticleDetails(shortUrl) {
+      this.$router.push({
+        path: `/nyttop/${this.section.name}/${this.getIdFromArticleShortUrl(shortUrl)}`,
+      });
     },
   },
 };
