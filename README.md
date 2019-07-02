@@ -14,6 +14,10 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 4. Será mais acessado pelo celular ou pelo computador? E por tables? Televisões? Algum outro dispositivo? Quais navegadores serão utilizados?
 5. O que faria as pessoas acessarem este sistema ao invés de acessar diretamente o site do _The New York Times_? Qual o diferencial?
 
+## Regras de negócio / Suposições
+
+*
+
 ## Resumo do que você vai encontrar aqui (tecnicamente):
 
 * Estrutura do código com [Vue.js](https://vuejs.org/);
@@ -30,10 +34,10 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 
 ## Das bibliotecas e ferramentas utilizadas:
 
-* Apesar de Angular 2+ com _typescript_ ser a estrutura de _front-end_ que tenho mais conhecimento, escolhi Vue.js com o objetivo de aproveitar este projeto para aprofundar meus conhecimentos nesta estrutura que estou usando profissionalmente desde fev/2019.
-* [Bulma.io]() por ser uma biblioteca simples de CSS e ajudar na construção da interface;
-* [Mixpanel]() para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles;
-* [axios]() para fazer as requisições HTTP na API;
+* Apesar de Angular 2+ com _typescript_ ser a estrutura de _front-end_ que tenho mais conhecimento, escolhi Vue.js com o objetivo de aproveitar este projeto para aprofundar meus conhecimentos nesta biblioteca que uso profissionalmente há 5 meses.
+* Bulma.io por ser uma biblioteca simples de CSS e ajudar na construção da interface;
+* Mixpanel para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles;
+* axios para fazer as requisições HTTP na API;
 
 ## O que foi feito:
 
@@ -58,13 +62,16 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 ## O que pode ser melhorado:
 
 * Melhorar gerenciamento de dados com [Vuex](https://vuex.vuejs.org/ptbr/guide/state.html);
+* O item acima é uma das possíveis formas de evitar uma requisição a API a cada artigo carregado;
+  * Aliás, esta escolha foi tomada para priorizar a possibilidade de compartilhar um artigo diretamente pela URL;
 * Adicionar imagens nos cartões dos artigos pra chamar mais atenção das pessoas usuárias;
 * Criar caminho de navegação (_breadcrumb_) entre as páginas;
-* Melhorar tratamento de erros de API externa;
 * Carregamento ocioso nos artigos de cada seção conforme o usuário fosse rolando a tela para baixo;
+* Melhorar tratamento de erros de API externa;
 * Uso de variáveis no CSS;
-* Diversos TODOs no código;
 * Testes funcionais e2e deveriam usar COMMANDS para requisitar seções ou artigos;
+* Testar views também de forma unitária, criando mocks para as camadas de serviço;
+* Diversos TODOs no código;
 
 ## Pré-requisitos para rodar a aplicação
 
