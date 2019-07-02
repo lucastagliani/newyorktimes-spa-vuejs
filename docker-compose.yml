@@ -2,10 +2,12 @@ version: '3'
 services:
   web:
     build: .
+    container_name: newyorktimes-spa-vuejs
+    hostname: newyorktimes-spa-vuejs
     ports:
       - "3000:3000"
     expose:
       - 3000
-    environment: 
+    environment:
       PORT: 3000
-  
+

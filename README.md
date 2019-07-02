@@ -16,7 +16,10 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 
 ## Regras de negócio / Suposições
 
-*
+* Uma das seções do site (_Science & Tech_) soma os artigos das seções "science" e "technology" da API do NYTimes;
+* São exibidos no máximo 12 artigos por seção;
+* Entre performance e a possibilidade de compartilhar a URL de artigos com outras pessoas, a segunda foi priorizada;
+* Caminhos de URL inválidos são automaticamente redirecionados para caminhos válidos;
 
 ## Resumo do que você vai encontrar aqui (tecnicamente):
 

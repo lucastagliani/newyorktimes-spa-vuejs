@@ -1,4 +1,4 @@
-FROM node:8
+FROM cypress/browsers:chrome69
 
 WORKDIR /usr/src/app
 
