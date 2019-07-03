@@ -52,8 +52,10 @@ import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 import ArticleCard from '@/components/ArticleCard.vue';
 import NoDataToDisplay from '@/components/NoDataToDisplay.vue';
 
-import articleService from '@/services/articleService';
+import ArticleService from '@/services/articleService';
 import sectionService from '@/services/sectionService';
+
+import http from '@/http/nytimes';
 
 export default {
   name: 'section-details',
@@ -79,20 +81,13 @@ export default {
     }
 
     window.mixpanel.track('Load section', { section_name: this.section.name });
-    this.articles = await articleService.getArticles(this.section.slugs);
+    const articleService = new ArticleService(http);
+    this.articles = await articleService.getArticles(this.section.slugs, 12);
     this.loading = false;
   },
   methods: {
     hasArticlesToDisplay() {
       return this.articles && this.articles.length > 0;
-    },
-    getIdFromArticleShortUrl(shortUrl) {
-      if (!shortUrl) {
-        return {};
-      }
-
-      const shortUrlSplitedBySlash = shortUrl.split('/');
-      return shortUrlSplitedBySlash[shortUrlSplitedBySlash.length - 1];
     },
     goBackToHome() {
       this.$router.push({ name: 'home' });

@@ -1,0 +1,2724 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 The New York Times Company. All Rights Reserved.",
+  "section": "technology",
+  "last_updated": "2019-07-02T23:07:03-04:00",
+  "num_results": 33,
+  "results": [
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "China Snares Tourists’ Phones in Surveillance Dragnet by Adding Secret App",
+          "abstract": "Border authorities routinely install the app on the phones of people entering the Xinjiang region by land from Central Asia, gathering personal data and scanning for material considered objectionable.",
+          "url": "https://www.nytimes.com/2019/07/02/technology/china-xinjiang-app.html",
+          "byline": "By RAYMOND ZHONG",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T14:38:49-04:00",
+          "created_date": "2019-07-02T11:00:15-04:00",
+          "published_date": "2019-07-02T11:00:15-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Surveillance of Citizens by Government",
+              "Uighurs (Chinese Ethnic Group)",
+              "Mobile Applications",
+              "Politics and Government",
+              "Computers and the Internet"
+          ],
+          "org_facet": [],
+          "per_facet": [
+              "Dalai Lama",
+              "Lister, Charles R"
+          ],
+          "geo_facet": [
+              "China",
+              "Xinjiang (China)"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/25/business/00chinaapp-01/00chinaapp-01-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Surveillance cameras are ubiquitous in China’s Xinjiang region.",
+                  "copyright": "Greg Baker/Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/25/business/00chinaapp-01/00chinaapp-01-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Surveillance cameras are ubiquitous in China’s Xinjiang region.",
+                  "copyright": "Greg Baker/Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/25/business/00chinaapp-01/merlin_155970570_d787c29e-a416-46fb-afa5-567dd1cd90b9-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Surveillance cameras are ubiquitous in China’s Xinjiang region.",
+                  "copyright": "Greg Baker/Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/25/business/00chinaapp-01/merlin_155970570_d787c29e-a416-46fb-afa5-567dd1cd90b9-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Surveillance cameras are ubiquitous in China’s Xinjiang region.",
+                  "copyright": "Greg Baker/Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/25/business/00chinaapp-01/merlin_155970570_d787c29e-a416-46fb-afa5-567dd1cd90b9-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Surveillance cameras are ubiquitous in China’s Xinjiang region.",
+                  "copyright": "Greg Baker/Agence France-Presse — Getty Images"
+              }
+          ],
+          "short_url": "https://nyti.ms/3041htd"
+      },
+      {
+          "section": "Business",
+          "subsection": "",
+          "title": "Meet the Man Quietly Building the Tesla of Trucks, With Jeff Bezos Aboard",
+          "abstract": "R. J. Scaringe’s company, Rivian, has raised $1.7 billion from Amazon, Ford Motor and others without selling a single pickup truck and sport utility vehicle.",
+          "url": "https://www.nytimes.com/2019/07/02/business/rj-scaringe-rivian.html",
+          "byline": "By NELSON D. SCHWARTZ",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T14:52:57-04:00",
+          "created_date": "2019-07-02T05:00:26-04:00",
+          "published_date": "2019-07-02T05:00:26-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Automobiles",
+              "Electric and Hybrid Vehicles",
+              "Sports Utility Vehicles and Light Trucks",
+              "Start-ups"
+          ],
+          "org_facet": [
+              "Rivian Automotive LLC",
+              "Amazon.com Inc"
+          ],
+          "per_facet": [
+              "Scaringe, R J",
+              "Bezos, Jeffrey P"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-thumbStandard-v2.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-thumbLarge-v2.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/merlin_156864453_6dcbdc4d-0718-4852-b1c8-cc422f1eb4b6-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 238,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/merlin_156864453_6dcbdc4d-0718-4852-b1c8-cc422f1eb4b6-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 2048,
+                  "width": 1639,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2Lu3RVv"
+      },
+      {
+          "section": "Business",
+          "subsection": "DealBook",
+          "title": "What Trump’s Huawei Reversal Means for the Future of 5G",
+          "abstract": "Huawei is the top threat to American dominance in wireless technology. And the U.S. is woefully, even disgracefully, behind.",
+          "url": "https://www.nytimes.com/2019/07/01/business/dealbook/huawei-5g-national-security-trade.html",
+          "byline": "By ANDREW ROSS SORKIN",
+          "item_type": "Article",
+          "updated_date": "2019-07-01T23:05:37-04:00",
+          "created_date": "2019-07-01T05:00:11-04:00",
+          "published_date": "2019-07-01T05:00:11-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "5G (Wireless Communications)",
+              "Radio Spectrum",
+              "United States Politics and Government",
+              "Wireless Communications",
+              "Innovation",
+              "Blacklisting"
+          ],
+          "org_facet": [
+              "Huawei Technologies Co Ltd",
+              "Defense Department",
+              "Telefonaktiebolaget L M Ericsson",
+              "Nokia Oyj"
+          ],
+          "per_facet": [
+              "Trump, Donald J",
+              "Xi Jinping"
+          ],
+          "geo_facet": [
+              "China"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/20/business/00db-sorkin01/00db-sorkin01-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Bangkok shop selling phones from Huawei, the Chinese company that poses the biggest threat to the United States’ dominance of the future of wireless technology.",
+                  "copyright": "Diego Azubel/EPA, via Shutterstock"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/20/business/00db-sorkin01/00db-sorkin01-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Bangkok shop selling phones from Huawei, the Chinese company that poses the biggest threat to the United States’ dominance of the future of wireless technology.",
+                  "copyright": "Diego Azubel/EPA, via Shutterstock"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/20/business/00db-sorkin01/merlin_156568725_bae9de95-7b96-4d11-9abd-c0310b7841c2-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Bangkok shop selling phones from Huawei, the Chinese company that poses the biggest threat to the United States’ dominance of the future of wireless technology.",
+                  "copyright": "Diego Azubel/EPA, via Shutterstock"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/20/business/00db-sorkin01/merlin_156568725_bae9de95-7b96-4d11-9abd-c0310b7841c2-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Bangkok shop selling phones from Huawei, the Chinese company that poses the biggest threat to the United States’ dominance of the future of wireless technology.",
+                  "copyright": "Diego Azubel/EPA, via Shutterstock"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/20/business/00db-sorkin01/merlin_156568725_bae9de95-7b96-4d11-9abd-c0310b7841c2-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Bangkok shop selling phones from Huawei, the Chinese company that poses the biggest threat to the United States’ dominance of the future of wireless technology.",
+                  "copyright": "Diego Azubel/EPA, via Shutterstock"
+              }
+          ],
+          "short_url": "https://nyti.ms/2NrUjNe"
+      },
+      {
+          "section": "Business",
+          "subsection": "",
+          "title": "A Unicorn Lost in the Valley, Evernote Blows Up the ‘Fail Fast’ Gospel",
+          "abstract": "In this season of multibillion-dollar I.P.O.s, the 15-year-old start-up is proving that failure, for companies of a certain size, rarely happens abruptly.",
+          "url": "https://www.nytimes.com/2019/06/28/business/evernote-what-happened.html",
+          "byline": "By ERIN GRIFFITH",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T05:00:11-04:00",
+          "created_date": "2019-06-28T05:00:11-04:00",
+          "published_date": "2019-06-28T05:00:11-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Computers and the Internet",
+              "Venture Capital",
+              "Mobile Applications",
+              "Start-ups",
+              "Initial Public Offerings"
+          ],
+          "org_facet": [
+              "Evernote Corp"
+          ],
+          "per_facet": [
+              "Small, Ian",
+              "O'Neill, Christopher R (1972- )"
+          ],
+          "geo_facet": [
+              "Silicon Valley (Calif)"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28Evernote2-promo/28Evernote2-promo-thumbStandard-v2.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "As chief executive, Chris O’Neill laid off employees, scaled back side projects, canceled lavish perks (like a weekly sushi lunch and free house cleaners), shuttered three international offices, and hiked the price of an Evernote subscription. He left the company last year.",
+                  "copyright": "Jason LeCras for The New York Times ORG XMIT: NPX"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28Evernote2-promo/28Evernote2-promo-thumbLarge-v2.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "As chief executive, Chris O’Neill laid off employees, scaled back side projects, canceled lavish perks (like a weekly sushi lunch and free house cleaners), shuttered three international offices, and hiked the price of an Evernote subscription. He left the company last year.",
+                  "copyright": "Jason LeCras for The New York Times ORG XMIT: NPX"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28Evernote2-promo/28Evernote2-promo-articleInline-v2.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "As chief executive, Chris O’Neill laid off employees, scaled back side projects, canceled lavish perks (like a weekly sushi lunch and free house cleaners), shuttered three international offices, and hiked the price of an Evernote subscription. He left the company last year.",
+                  "copyright": "Jason LeCras for The New York Times ORG XMIT: NPX"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28Evernote2-promo/28Evernote2-promo-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "As chief executive, Chris O’Neill laid off employees, scaled back side projects, canceled lavish perks (like a weekly sushi lunch and free house cleaners), shuttered three international offices, and hiked the price of an Evernote subscription. He left the company last year.",
+                  "copyright": "Jason LeCras for The New York Times ORG XMIT: NPX"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28Evernote2-promo/28Evernote2-promo-superJumbo-v2.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "As chief executive, Chris O’Neill laid off employees, scaled back side projects, canceled lavish perks (like a weekly sushi lunch and free house cleaners), shuttered three international offices, and hiked the price of an Evernote subscription. He left the company last year.",
+                  "copyright": "Jason LeCras for The New York Times ORG XMIT: NPX"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FDPRoh"
+      },
+      {
+          "section": "Business",
+          "subsection": "",
+          "title": "Tesla Says Deliveries in Quarter Set a Record",
+          "abstract": "The 95,200 vehicles beat the mark set in last year’s final quarter, the electric-car maker said. But it may be hard pressed to meet its 2019 target.",
+          "url": "https://www.nytimes.com/2019/07/02/business/tesla-electric-vehicle-sales.html",
+          "byline": "By NEAL E. BOUDETTE",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T19:25:26-04:00",
+          "created_date": "2019-07-02T16:31:38-04:00",
+          "published_date": "2019-07-02T16:31:38-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Company Reports",
+              "Electric and Hybrid Vehicles",
+              "Stocks and Bonds",
+              "Tax Credits, Deductions and Exemptions"
+          ],
+          "org_facet": [
+              "Tesla Motors Inc"
+          ],
+          "per_facet": [
+              "Musk, Elon"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/business/02tesla2/02tesla2-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Deliveries in April to a Tesla showroom in Brooklyn.",
+                  "copyright": "Spencer Platt/Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/business/02tesla2/02tesla2-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Deliveries in April to a Tesla showroom in Brooklyn.",
+                  "copyright": "Spencer Platt/Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/business/02tesla2/merlin_153968928_7b3f43b1-9d4c-43b2-b8de-17d5fad171fe-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Deliveries in April to a Tesla showroom in Brooklyn.",
+                  "copyright": "Spencer Platt/Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/business/02tesla2/merlin_153968928_7b3f43b1-9d4c-43b2-b8de-17d5fad171fe-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Deliveries in April to a Tesla showroom in Brooklyn.",
+                  "copyright": "Spencer Platt/Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/business/02tesla2/merlin_153968928_7b3f43b1-9d4c-43b2-b8de-17d5fad171fe-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Deliveries in April to a Tesla showroom in Brooklyn.",
+                  "copyright": "Spencer Platt/Getty Images"
+              }
+          ],
+          "short_url": "https://nyti.ms/2Jjz8rz"
+      },
+      {
+          "section": "Business",
+          "subsection": "Media",
+          "title": "Netflix Has a Talk Show Problem",
+          "abstract": "For sitcoms, dramas and reality shows, the jump to streaming was easy. But talk shows? It’s tricky.",
+          "url": "https://www.nytimes.com/2019/07/02/business/media/netflix-talk-shows.html",
+          "byline": "By JOHN KOBLIN",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T11:29:08-04:00",
+          "created_date": "2019-07-02T11:29:08-04:00",
+          "published_date": "2019-07-02T11:29:08-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Television",
+              "Chelsea (TV Program)",
+              "Patriot Act (TV Program)"
+          ],
+          "org_facet": [
+              "Netflix Inc"
+          ],
+          "per_facet": [
+              "Handler, Chelsea",
+              "McHale, Joel",
+              "Wolf, Michelle",
+              "Letterman, David",
+              "Macdonald, Norm",
+              "Minhaj, Hasan (1985- )"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27NETFLIXTALKS-02/merlin_141488595_a06501e1-2048-4a12-8728-806efb9703cc-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Among other cancellations: “The Break With Michelle Wolf.” Ms. Wolf drew attention for skewering Trump administration members at the 2018 White House Correspondents’ Association dinner.",
+                  "copyright": "Netflix"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27NETFLIXTALKS-02/merlin_141488595_a06501e1-2048-4a12-8728-806efb9703cc-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Among other cancellations: “The Break With Michelle Wolf.” Ms. Wolf drew attention for skewering Trump administration members at the 2018 White House Correspondents’ Association dinner.",
+                  "copyright": "Netflix"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27NETFLIXTALKS-02/merlin_141488595_a06501e1-2048-4a12-8728-806efb9703cc-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 106,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Among other cancellations: “The Break With Michelle Wolf.” Ms. Wolf drew attention for skewering Trump administration members at the 2018 White House Correspondents’ Association dinner.",
+                  "copyright": "Netflix"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27NETFLIXTALKS-02/27NETFLIXTALKS-02-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Among other cancellations: “The Break With Michelle Wolf.” Ms. Wolf drew attention for skewering Trump administration members at the 2018 White House Correspondents’ Association dinner.",
+                  "copyright": "Netflix"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27NETFLIXTALKS-02/merlin_141488595_a06501e1-2048-4a12-8728-806efb9703cc-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1139,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Among other cancellations: “The Break With Michelle Wolf.” Ms. Wolf drew attention for skewering Trump administration members at the 2018 White House Correspondents’ Association dinner.",
+                  "copyright": "Netflix"
+              }
+          ]
+      },
+      {
+          "section": "Travel",
+          "subsection": "",
+          "title": "The Apps You Need for Smarter Travel in Asia",
+          "abstract": "You may rely on Google Maps and Uber in the United States, but if you’re traveling to Japan, Korea or China, consider installing one of these.",
+          "url": "https://www.nytimes.com/2019/07/02/travel/the-apps-you-need-to-travel-smarter-in-asia.html",
+          "byline": "By HAHNA YOON",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T17:24:37-04:00",
+          "created_date": "2019-07-02T05:00:05-04:00",
+          "published_date": "2019-07-02T05:00:05-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Travel and Vacations",
+              "Mobile Applications",
+              "Maps",
+              "Social Media",
+              "Computers and the Internet"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/travel/07TIPS-asia-apps/b99cae41d5ff4d9ca643968534e766be-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Lars Leetaru"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/travel/07TIPS-asia-apps/b99cae41d5ff4d9ca643968534e766be-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Lars Leetaru"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/travel/07TIPS-asia-apps/b99cae41d5ff4d9ca643968534e766be-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 190,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Lars Leetaru"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/travel/07TIPS-asia-apps/07TIPS-asia-apps-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Lars Leetaru"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/travel/07TIPS-asia-apps/b99cae41d5ff4d9ca643968534e766be-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 735,
+                  "width": 735,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Lars Leetaru"
+              }
+          ],
+          "short_url": "https://nyti.ms/2LvPtfu"
+      },
+      {
+          "section": "World",
+          "subsection": "Asia Pacific",
+          "title": "The Government Cut Their Internet. Will Abuses Now Remain Hidden?",
+          "abstract": "With ethnic conflict spreading in Rakhine State in Myanmar, a government-led online shutdown could hide human rights abuses and leave vulnerable populations in the dark.",
+          "url": "https://www.nytimes.com/2019/07/02/world/asia/internet-shutdown-myanmar-rakhine.html",
+          "byline": "By HANNAH BEECH and SAW NANG",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T17:20:44-04:00",
+          "created_date": "2019-07-02T02:39:10-04:00",
+          "published_date": "2019-07-02T02:39:10-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Defense and Military Forces",
+              "Computers and the Internet",
+              "Human Rights and Human Rights Violations",
+              "Rakhine (Ethnic Group)",
+              "Telephones and Telecommunications",
+              "Social Media"
+          ],
+          "org_facet": [
+              "Facebook Inc",
+              "Human Rights Watch",
+              "Tatmadaw (Myanmar)",
+              "Telenor Communications SA"
+          ],
+          "per_facet": [
+              "Aung San Suu Kyi"
+          ],
+          "geo_facet": [
+              "Myanmar",
+              "Rakhine State (Myanmar)"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/world/02rakhine-1/02rakhine-1-thumbStandard-v2.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A border guard watching a Rohingya man at a checkpoint in the Muslim quarter of Maungdaw, in Rakhine State in Myanmar, in May.",
+                  "copyright": "Adam Dean for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/world/02rakhine-1/02rakhine-1-thumbLarge-v2.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A border guard watching a Rohingya man at a checkpoint in the Muslim quarter of Maungdaw, in Rakhine State in Myanmar, in May.",
+                  "copyright": "Adam Dean for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/world/02rakhine-1/02rakhine-1-articleInline-v2.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A border guard watching a Rohingya man at a checkpoint in the Muslim quarter of Maungdaw, in Rakhine State in Myanmar, in May.",
+                  "copyright": "Adam Dean for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/world/02rakhine-1/02rakhine-1-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A border guard watching a Rohingya man at a checkpoint in the Muslim quarter of Maungdaw, in Rakhine State in Myanmar, in May.",
+                  "copyright": "Adam Dean for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/world/02rakhine-1/02rakhine-1-superJumbo-v2.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A border guard watching a Rohingya man at a checkpoint in the Muslim quarter of Maungdaw, in Rakhine State in Myanmar, in May.",
+                  "copyright": "Adam Dean for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FN9jis"
+      },
+      {
+          "section": "U.S.",
+          "subsection": "",
+          "title": "Man Is Charged in Twitter Threat to Lynch Muslim Lawyer",
+          "abstract": "A warrant has been issued for the arrest of Joseph Cecil Vandevere, 52. He is accused of threatening a man who is now running for office in Virginia.",
+          "url": "https://www.nytimes.com/2019/07/01/us/muslim-candidate-lynch-tweet.html",
+          "byline": "By JACEY FORTIN",
+          "item_type": "Article",
+          "updated_date": "2019-07-01T22:28:40-04:00",
+          "created_date": "2019-07-01T22:28:40-04:00",
+          "published_date": "2019-07-01T22:28:40-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Muslim Americans",
+              "Threats and Threatening Messages",
+              "Lynching",
+              "Elections, State Legislature",
+              "Cyberharassment",
+              "Discrimination"
+          ],
+          "org_facet": [
+              "Twitter"
+          ],
+          "per_facet": [
+              "Rashid, Qasim (1982- )",
+              "Vandevere, Joseph Cecil"
+          ],
+          "geo_facet": [
+              "Virginia"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/multimedia/01xp-threat/01xp-threat-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Qasim Rashid, who is running for a seat in Virginia’s State Senate, said, “As a person of color, as an immigrant and as a Muslim, to speak publicly about your faith and to receive death threats is not uncommon.”",
+                  "copyright": "Marion Meakem Photography/Quasim Rashid Campaign, via Associated Press"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/multimedia/01xp-threat/01xp-threat-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Qasim Rashid, who is running for a seat in Virginia’s State Senate, said, “As a person of color, as an immigrant and as a Muslim, to speak publicly about your faith and to receive death threats is not uncommon.”",
+                  "copyright": "Marion Meakem Photography/Quasim Rashid Campaign, via Associated Press"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/multimedia/01xp-threat/01xp-threat-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 284,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Qasim Rashid, who is running for a seat in Virginia’s State Senate, said, “As a person of color, as an immigrant and as a Muslim, to speak publicly about your faith and to receive death threats is not uncommon.”",
+                  "copyright": "Marion Meakem Photography/Quasim Rashid Campaign, via Associated Press"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/multimedia/01xp-threat/01xp-threat-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Qasim Rashid, who is running for a seat in Virginia’s State Senate, said, “As a person of color, as an immigrant and as a Muslim, to speak publicly about your faith and to receive death threats is not uncommon.”",
+                  "copyright": "Marion Meakem Photography/Quasim Rashid Campaign, via Associated Press"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/multimedia/01xp-threat/01xp-threat-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 2048,
+                  "width": 1372,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Qasim Rashid, who is running for a seat in Virginia’s State Senate, said, “As a person of color, as an immigrant and as a Muslim, to speak publicly about your faith and to receive death threats is not uncommon.”",
+                  "copyright": "Marion Meakem Photography/Quasim Rashid Campaign, via Associated Press"
+              }
+          ],
+          "short_url": "https://nyti.ms/2LtXd1q"
+      },
+      {
+          "section": "Science",
+          "subsection": "",
+          "title": "They Kinda Want to Believe Apollo 11 Was Maybe a Hoax",
+          "abstract": "Conspiracy theories were once deadly serious. On the internet, skepticism about the moon landing shows how the mood has shifted.",
+          "url": "https://www.nytimes.com/2019/07/01/science/moon-landing-hoax-conspiracy-theory.html",
+          "byline": "By AMANDA HESS",
+          "item_type": "Article",
+          "updated_date": "2019-07-01T17:56:34-04:00",
+          "created_date": "2019-07-01T12:57:47-04:00",
+          "published_date": "2019-07-01T12:57:47-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Apollo Project",
+              "Computers and the Internet",
+              "Moon",
+              "Space and Astronomy",
+              "Fringe Groups and Movements"
+          ],
+          "org_facet": [
+              "YouTube.com"
+          ],
+          "per_facet": [
+              "Kaysing, Bill",
+              "Sibrel, Bart",
+              "Dawson, Shane (1988- )"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/30/science/00MOON-HOAX1/00MOON-HOAX1-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Buzz Aldrin, left, and Neil Armstrong, practicing moon rock collection on Earth in April 1969.",
+                  "copyright": "JSC/NASA"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/30/science/00MOON-HOAX1/00MOON-HOAX1-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Buzz Aldrin, left, and Neil Armstrong, practicing moon rock collection on Earth in April 1969.",
+                  "copyright": "JSC/NASA"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/30/science/00MOON-HOAX1/00MOON-HOAX1-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Buzz Aldrin, left, and Neil Armstrong, practicing moon rock collection on Earth in April 1969.",
+                  "copyright": "JSC/NASA"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/30/science/00MOON-HOAX1/00MOON-HOAX1-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Buzz Aldrin, left, and Neil Armstrong, practicing moon rock collection on Earth in April 1969.",
+                  "copyright": "JSC/NASA"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/30/science/00MOON-HOAX1/00MOON-HOAX1-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1366,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Buzz Aldrin, left, and Neil Armstrong, practicing moon rock collection on Earth in April 1969.",
+                  "copyright": "JSC/NASA"
+              }
+          ],
+          "short_url": "https://nyti.ms/2NpPMuY"
+      },
+      {
+          "section": "Science",
+          "subsection": "",
+          "title": "Wired Bacteria Form Nature’s Power Grid: ‘We Have an Electric Planet’",
+          "abstract": "Electroactive bacteria were running current through “wires” long before humans learned the trick.",
+          "url": "https://www.nytimes.com/2019/07/01/science/bacteria-microbes-electricity.html",
+          "byline": "By CARL ZIMMER",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T01:04:07-04:00",
+          "created_date": "2019-07-01T11:49:47-04:00",
+          "published_date": "2019-07-01T11:49:47-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Microbiology",
+              "Bacteria",
+              "Electric Light and Power",
+              "Physics",
+              "Oxygen",
+              "Hydrogen",
+              "Solar Energy",
+              "Geobacter",
+              "your-feed-science"
+          ],
+          "org_facet": [
+              "Cornell University",
+              "Duquesne University",
+              "University of Massachusetts Amherst",
+              "University of Minnesota",
+              "Yale University"
+          ],
+          "per_facet": [
+              "Lovley, Derek",
+              "Nielsen, Lars Peter",
+              "Stolz, John F"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/science/02ElectricPlanet-1-illo/02ElectricPlanet-1-illo-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Gordon Studer"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/science/02ElectricPlanet-1-illo/02ElectricPlanet-1-illo-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Gordon Studer"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/science/02ElectricPlanet-1-illo/02ElectricPlanet-1-illo-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 142,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Gordon Studer"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/science/02ElectricPlanet-1-illo/02ElectricPlanet-1-illo-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Gordon Studer"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/02/science/02ElectricPlanet-1-illo/02ElectricPlanet-1-illo-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1534,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Gordon Studer"
+              }
+          ],
+          "short_url": "https://nyti.ms/2NpYJEg"
+      },
+      {
+          "section": "Science",
+          "subsection": "",
+          "title": "Scientists Took an M.R.I. Scan of an Atom",
+          "abstract": "The hospital technology, typically used to identify human ailments, captured perhaps the world’s smallest magnetic resonance image.",
+          "url": "https://www.nytimes.com/2019/07/01/science/microscope-atom-magnetic-mri.html",
+          "byline": "By KNVUL SHEIKH",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T05:22:46-04:00",
+          "created_date": "2019-07-01T11:00:06-04:00",
+          "published_date": "2019-07-01T11:00:06-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Microscopes",
+              "Physics",
+              "Magnets and Magnetism",
+              "Magnetic Resonance Imagers",
+              "Quantum Computing",
+              "Computers and the Internet",
+              "Miniaturization",
+              "your-feed-science"
+          ],
+          "org_facet": [
+              "International Business Machines Corporation",
+              "Nature Physics (Journal)"
+          ],
+          "per_facet": [
+              "Lutz, Christopher P"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/science/01TB-ATOMICMRI1/01TB-ATOMICMRI1-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "While not science’s sleekest machine, this microscope was able to capture M.R.I.  scans of single atoms. ",
+                  "copyright": "IBM Research"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/science/01TB-ATOMICMRI1/01TB-ATOMICMRI1-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "While not science’s sleekest machine, this microscope was able to capture M.R.I.  scans of single atoms. ",
+                  "copyright": "IBM Research"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/science/01TB-ATOMICMRI1/01TB-ATOMICMRI1-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "While not science’s sleekest machine, this microscope was able to capture M.R.I.  scans of single atoms. ",
+                  "copyright": "IBM Research"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/science/01TB-ATOMICMRI1/01TB-ATOMICMRI1-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "While not science’s sleekest machine, this microscope was able to capture M.R.I.  scans of single atoms. ",
+                  "copyright": "IBM Research"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/science/01TB-ATOMICMRI1/merlin_157170546_4d9ab7df-8e77-4721-99a2-04de10a8ea15-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "While not science’s sleekest machine, this microscope was able to capture M.R.I.  scans of single atoms. ",
+                  "copyright": "IBM Research"
+              }
+          ],
+          "short_url": "https://nyti.ms/2KPZc0A"
+      },
+      {
+          "section": "Business",
+          "subsection": "",
+          "title": "Al Kelly of Visa on the Reagan White House and the Politics of Guns",
+          "abstract": "Everywhere and nowhere, he works to keep Visa at the center of the global financial system — and out of political disputes.",
+          "url": "https://www.nytimes.com/2019/07/01/business/al-kelly-visa-corner-office.html",
+          "byline": "By DAVID GELLES",
+          "item_type": "Article",
+          "updated_date": "2019-07-01T06:00:04-04:00",
+          "created_date": "2019-07-01T06:00:04-04:00",
+          "published_date": "2019-07-01T06:00:04-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Credit Cards"
+          ],
+          "org_facet": [],
+          "per_facet": [
+              "Kelly, Alfred F Jr"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/business/01CORNEROFFICE-01/01CORNEROFFICE-01-thumbStandard-v2.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Al Kelly, the chief executive officer of Visa.",
+                  "copyright": "Guerin Blask for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/business/01CORNEROFFICE-01/01CORNEROFFICE-01-thumbLarge-v2.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Al Kelly, the chief executive officer of Visa.",
+                  "copyright": "Guerin Blask for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/business/01CORNEROFFICE-01/merlin_153343107_65d26761-d484-482f-9d7a-7dbd561746ef-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 237,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Al Kelly, the chief executive officer of Visa.",
+                  "copyright": "Guerin Blask for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/business/01CORNEROFFICE-01/01CORNEROFFICE-01-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Al Kelly, the chief executive officer of Visa.",
+                  "copyright": "Guerin Blask for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/07/business/01CORNEROFFICE-01/merlin_153343107_65d26761-d484-482f-9d7a-7dbd561746ef-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 2048,
+                  "width": 1643,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Al Kelly, the chief executive officer of Visa.",
+                  "copyright": "Guerin Blask for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2Nn1I0p"
+      },
+      {
+          "section": "U.S.",
+          "subsection": "",
+          "title": "Genealogy Sites Have Helped Identify Suspects. Now They’ve Helped Convict One.",
+          "abstract": "A new forensic technique sailed through its first test in court, leading to a guilty verdict. But beyond the courtroom, a battle over privacy is intensifying.",
+          "url": "https://www.nytimes.com/2019/07/01/us/dna-genetic-genealogy-trial.html",
+          "byline": "By HEATHER MURPHY",
+          "item_type": "Article",
+          "updated_date": "2019-07-01T15:05:47-04:00",
+          "created_date": "2019-07-01T03:00:19-04:00",
+          "published_date": "2019-07-01T03:00:19-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Genealogy",
+              "Genetics and Heredity",
+              "Forensic Science",
+              "DNA (Deoxyribonucleic Acid)",
+              "Murders, Attempted Murders and Homicides"
+          ],
+          "org_facet": [
+              "Family Tree DNA",
+              "GEDMatch",
+              "Parabon NanoLabs Inc"
+          ],
+          "per_facet": [],
+          "geo_facet": [
+              "Everett (Wash)",
+              "Snohomish County (Wash)"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/us/00geneology-crimescene/00geneology-crimescene-thumbStandard-v2.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A photograph taken of the crime scene on the day Jay Cook’s body was found.",
+                  "copyright": "Snohomish County Sheriff's Office"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/us/00geneology-crimescene/00geneology-crimescene-thumbLarge-v2.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A photograph taken of the crime scene on the day Jay Cook’s body was found.",
+                  "copyright": "Snohomish County Sheriff's Office"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/us/00geneology-crimescene/00geneology-crimescene-articleInline-v2.jpg",
+                  "format": "Normal",
+                  "height": 125,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A photograph taken of the crime scene on the day Jay Cook’s body was found.",
+                  "copyright": "Snohomish County Sheriff's Office"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/us/00geneology-crimescene/00geneology-crimescene-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A photograph taken of the crime scene on the day Jay Cook’s body was found.",
+                  "copyright": "Snohomish County Sheriff's Office"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/us/00geneology-crimescene/00geneology-crimescene-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1113,
+                  "width": 1577,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A photograph taken of the crime scene on the day Jay Cook’s body was found.",
+                  "copyright": "Snohomish County Sheriff's Office"
+              }
+          ],
+          "short_url": "https://nyti.ms/2KT4k42"
+      },
+      {
+          "section": "Science",
+          "subsection": "",
+          "title": "NASA Reopens Apollo Mission Control Room That Once Landed Men on Moon",
+          "abstract": "The restored room is a museum piece, and yet it is alive, as though engineers stepped out briefly but would be right back.",
+          "url": "https://www.nytimes.com/2019/06/29/science/apollo-11-mission-control-nasa.html",
+          "byline": "By DAVID W. BROWN",
+          "item_type": "Article",
+          "updated_date": "2019-06-30T13:18:12-04:00",
+          "created_date": "2019-06-29T10:23:15-04:00",
+          "published_date": "2019-06-29T10:23:15-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Apollo Project",
+              "Restoration and Renovation",
+              "Space and Astronomy",
+              "Historic Buildings and Sites",
+              "Moon",
+              "National Parks, Monuments and Seashores"
+          ],
+          "org_facet": [
+              "National Aeronautics and Space Administration",
+              "Johnson Space Center"
+          ],
+          "per_facet": [
+              "Kranz, Gene"
+          ],
+          "geo_facet": [
+              "Houston (Tex)"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/science/29MOON-HOUSTON1/29MOON-HOUSTON1-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The newly renovated mission control center at the Johnson Space Center in Houston on Friday.",
+                  "copyright": "Todd Spoth for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/science/29MOON-HOUSTON1/29MOON-HOUSTON1-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The newly renovated mission control center at the Johnson Space Center in Houston on Friday.",
+                  "copyright": "Todd Spoth for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/science/29MOON-HOUSTON1/29MOON-HOUSTON1-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 124,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The newly renovated mission control center at the Johnson Space Center in Houston on Friday.",
+                  "copyright": "Todd Spoth for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/science/29MOON-HOUSTON1/29MOON-HOUSTON1-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The newly renovated mission control center at the Johnson Space Center in Houston on Friday.",
+                  "copyright": "Todd Spoth for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/science/29MOON-HOUSTON1/merlin_157155117_7758257f-7b85-4645-a12c-56a98972580c-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The newly renovated mission control center at the Johnson Space Center in Houston on Friday.",
+                  "copyright": "Todd Spoth for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2NmX9Dp"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "Apple to Manufacture New Mac Pro Computer in China Instead of U.S.",
+          "abstract": "The company’s move to shift assembly of the only major product it had made in America outside the country comes amid a continuing trade war between the United States and China.",
+          "url": "https://www.nytimes.com/2019/06/28/technology/apple-mac-pro-china.html",
+          "byline": "By CADE METZ",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T17:52:36-04:00",
+          "created_date": "2019-06-28T13:12:03-04:00",
+          "published_date": "2019-06-28T13:12:03-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Factories and Manufacturing",
+              "Desktop Computers"
+          ],
+          "org_facet": [
+              "Apple Inc"
+          ],
+          "per_facet": [],
+          "geo_facet": [
+              "China"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28apple-sub/28apple-sub-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An Apple Mac Pro computer on display this year. The company plans to produce a new version of the high-end desktop in China rather than the United States.",
+                  "copyright": "Jim Wilson/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28apple-sub/28apple-sub-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An Apple Mac Pro computer on display this year. The company plans to produce a new version of the high-end desktop in China rather than the United States.",
+                  "copyright": "Jim Wilson/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28apple-sub/28apple-sub-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 122,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An Apple Mac Pro computer on display this year. The company plans to produce a new version of the high-end desktop in China rather than the United States.",
+                  "copyright": "Jim Wilson/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28apple-sub/28apple-sub-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An Apple Mac Pro computer on display this year. The company plans to produce a new version of the high-end desktop in China rather than the United States.",
+                  "copyright": "Jim Wilson/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28apple-sub/28apple-sub-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1313,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An Apple Mac Pro computer on display this year. The company plans to produce a new version of the high-end desktop in China rather than the United States.",
+                  "copyright": "Jim Wilson/The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FELoSh"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "The Week in Tech: Can You Put a Price on Your Personal Data?",
+          "abstract": "New legislation could tell you how much your data is worth. But you might be disappointed by the price tag.",
+          "url": "https://www.nytimes.com/2019/06/28/technology/data-price-big-tech.html",
+          "byline": "By JAMIE CONDLIFFE",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T09:00:04-04:00",
+          "created_date": "2019-06-28T09:00:04-04:00",
+          "published_date": "2019-06-28T09:00:04-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Computers and the Internet",
+              "Online Advertising",
+              "Regulation and Deregulation of Industry",
+              "Censorship"
+          ],
+          "org_facet": [
+              "Facebook Inc",
+              "Ravelry LLC",
+              "University of Chicago",
+              "Google Inc"
+          ],
+          "per_facet": [
+              "Zuckerberg, Mark E"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/business/28subtechnewsletter-print/merlin_146439735_fd9e4547-8989-4945-9fa2-d07a338850a6-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "On Monday, two senators introduced a bill that would require companies to be more transparent about their collection of user data.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/business/28subtechnewsletter-print/merlin_146439735_fd9e4547-8989-4945-9fa2-d07a338850a6-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "On Monday, two senators introduced a bill that would require companies to be more transparent about their collection of user data.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/business/28subtechnewsletter-print/merlin_146439735_fd9e4547-8989-4945-9fa2-d07a338850a6-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "On Monday, two senators introduced a bill that would require companies to be more transparent about their collection of user data.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/business/28subtechnewsletter-print/merlin_146439735_fd9e4547-8989-4945-9fa2-d07a338850a6-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "On Monday, two senators introduced a bill that would require companies to be more transparent about their collection of user data.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/07/01/business/28subtechnewsletter-print/merlin_146439735_fd9e4547-8989-4945-9fa2-d07a338850a6-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "On Monday, two senators introduced a bill that would require companies to be more transparent about their collection of user data.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FDP1Ih"
+      },
+      {
+          "section": "Magazine",
+          "subsection": "",
+          "title": "The Growing Threat of Hypersonic Missiles",
+          "abstract": "Those in charge of hypersonic missiles are focused on building them, not imagining the reactions they might inspire in others.",
+          "url": "https://www.nytimes.com/2019/06/28/magazine/the-growing-threat-of-hypersonic-missiles.html",
+          "byline": "By R. JEFFREY SMITH",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T08:36:26-04:00",
+          "created_date": "2019-06-28T08:36:26-04:00",
+          "published_date": "2019-06-28T08:36:26-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "United States Defense and Military Forces",
+              "Missiles and Missile Defense Systems"
+          ],
+          "org_facet": [
+              "Center for Public Integrity"
+          ],
+          "per_facet": [
+              "Kurosawa, Akira"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/23/magazine/23mag-hypersonics-02/23mag-hypersonics-02-thumbStandard-v2.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Interior of the high-velocity wind tunnel in White Oak, Md., where scientists are testing hypersonic missile prototypes.",
+                  "copyright": "Dan Winters for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/23/magazine/23mag-hypersonics-02/23mag-hypersonics-02-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Interior of the high-velocity wind tunnel in White Oak, Md., where scientists are testing hypersonic missile prototypes.",
+                  "copyright": "Dan Winters for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/23/magazine/23mag-hypersonics-02/8dc5ce5bacd34e39ad6ddf78bdaef34e-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 246,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Interior of the high-velocity wind tunnel in White Oak, Md., where scientists are testing hypersonic missile prototypes.",
+                  "copyright": "Dan Winters for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/23/magazine/23mag-hypersonics-02/23mag-hypersonics-02-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Interior of the high-velocity wind tunnel in White Oak, Md., where scientists are testing hypersonic missile prototypes.",
+                  "copyright": "Dan Winters for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/23/magazine/23mag-hypersonics-02/8dc5ce5bacd34e39ad6ddf78bdaef34e-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 2048,
+                  "width": 1583,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Interior of the high-velocity wind tunnel in White Oak, Md., where scientists are testing hypersonic missile prototypes.",
+                  "copyright": "Dan Winters for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2LnDvV2"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "As Trump and Xi Talk Trade, Huawei Will Loom Large",
+          "abstract": "China is not expected to accept a deal to lift tariffs unless there’s relief for its biggest, most internationally successful tech company.",
+          "url": "https://www.nytimes.com/2019/06/28/technology/huawei-us-china-trade.html",
+          "byline": "By RAYMOND ZHONG",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T23:21:25-04:00",
+          "created_date": "2019-06-28T05:06:06-04:00",
+          "published_date": "2019-06-28T05:06:06-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "International Trade and World Market",
+              "5G (Wireless Communications)",
+              "United States International Relations",
+              "Embargoes and Sanctions",
+              "Computers and the Internet"
+          ],
+          "org_facet": [
+              "Huawei Technologies Co Ltd"
+          ],
+          "per_facet": [
+              "Trump, Donald J"
+          ],
+          "geo_facet": [
+              "China"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/business/28huawei-print/00huawei-01-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Testing 5G technology at a Huawei stand during the Mobile World Congress in Shanghai.",
+                  "copyright": "Hector Retamal/Agence France-Presse &mdash; Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/business/28huawei-print/00huawei-01-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Testing 5G technology at a Huawei stand during the Mobile World Congress in Shanghai.",
+                  "copyright": "Hector Retamal/Agence France-Presse &mdash; Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/business/28huawei-print/merlin_157023597_f32030f8-46fe-48ab-8a01-e6e929926735-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 126,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Testing 5G technology at a Huawei stand during the Mobile World Congress in Shanghai.",
+                  "copyright": "Hector Retamal/Agence France-Presse &mdash; Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/business/28huawei-print/00huawei-01-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Testing 5G technology at a Huawei stand during the Mobile World Congress in Shanghai.",
+                  "copyright": "Hector Retamal/Agence France-Presse &mdash; Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/29/business/28huawei-print/merlin_157023597_f32030f8-46fe-48ab-8a01-e6e929926735-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1363,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Testing 5G technology at a Huawei stand during the Mobile World Congress in Shanghai.",
+                  "copyright": "Hector Retamal/Agence France-Presse &mdash; Getty Images"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FDvRlQ"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "Grieving People Gathered on a Facebook Support Group. Then a Hacker Showed Up.",
+          "abstract": "Page administrators of Grief the Unspoken say a hacker repeatedly posted disturbing images on the page, which has 500,000 followers.",
+          "url": "https://www.nytimes.com/2019/06/27/technology/facebook-groups-grief-professionals.html",
+          "byline": "By NEIL VIGDOR and LAURA M. HOLSON",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T09:54:47-04:00",
+          "created_date": "2019-06-27T21:46:58-04:00",
+          "published_date": "2019-06-27T21:46:58-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Social Media",
+              "Cyberattacks and Hackers",
+              "Computers and the Internet",
+              "Computer Security"
+          ],
+          "org_facet": [
+              "Facebook Inc"
+          ],
+          "per_facet": [
+              "Zuckerberg, Mark E",
+              "Warren, Elizabeth"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/multimedia/28xp-facebook/28xp-facebook-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/multimedia/28xp-facebook/28xp-facebook-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/multimedia/28xp-facebook/merlin_157109388_a425d260-ca72-44dc-88c2-bf74a64d8901-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 128,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/multimedia/28xp-facebook/28xp-facebook-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/multimedia/28xp-facebook/merlin_157109388_a425d260-ca72-44dc-88c2-bf74a64d8901-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1375,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Getty Images"
+              }
+          ],
+          "short_url": "https://nyti.ms/2LlvHTE"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "Jony Ive, Designer Who Made Apple Look Like Apple, Is Leaving to Start a Firm",
+          "abstract": "The executive played a key role in the iPod and iPhone during his 27 years at Apple, which will be a client of his new company.",
+          "url": "https://www.nytimes.com/2019/06/27/technology/jony-ive-apple.html",
+          "byline": "By CADE METZ",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T15:22:08-04:00",
+          "created_date": "2019-06-27T17:22:56-04:00",
+          "published_date": "2019-06-27T17:22:56-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Design",
+              "Appointments and Executive Changes"
+          ],
+          "org_facet": [
+              "Apple Inc",
+              "LoveFrom (Design Firm)"
+          ],
+          "per_facet": [
+              "Ive, Jonathan"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27ive/27ive-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jony Ive speaking with Anna Wintour last year. Mr. Ive, one of Apple’s best-known executives, will leave the company this year.",
+                  "copyright": "Matt Winkelmeyer/Getty Images for WIRED25"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27ive/27ive-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jony Ive speaking with Anna Wintour last year. Mr. Ive, one of Apple’s best-known executives, will leave the company this year.",
+                  "copyright": "Matt Winkelmeyer/Getty Images for WIRED25"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27ive/dbd26e5006504aee855a20b4e77cb6ee-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jony Ive speaking with Anna Wintour last year. Mr. Ive, one of Apple’s best-known executives, will leave the company this year.",
+                  "copyright": "Matt Winkelmeyer/Getty Images for WIRED25"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27ive/dbd26e5006504aee855a20b4e77cb6ee-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jony Ive speaking with Anna Wintour last year. Mr. Ive, one of Apple’s best-known executives, will leave the company this year.",
+                  "copyright": "Matt Winkelmeyer/Getty Images for WIRED25"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27ive/dbd26e5006504aee855a20b4e77cb6ee-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jony Ive speaking with Anna Wintour last year. Mr. Ive, one of Apple’s best-known executives, will leave the company this year.",
+                  "copyright": "Matt Winkelmeyer/Getty Images for WIRED25"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FDxfF7"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "Trade War Has Damaged U.S. Chip Industry in Ways a Deal May Never Fix",
+          "abstract": "Beyond the current financial hit, American producers fear Chinese companies will strengthen domestic manufacturing and switch to other foreign suppliers they consider more dependable.",
+          "url": "https://www.nytimes.com/2019/06/27/technology/trade-war-chipmakers.html",
+          "byline": "By DON CLARK",
+          "item_type": "Article",
+          "updated_date": "2019-06-27T16:30:14-04:00",
+          "created_date": "2019-06-27T16:30:15-04:00",
+          "published_date": "2019-06-27T16:30:15-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Computer Chips",
+              "International Trade and World Market",
+              "Embargoes and Sanctions",
+              "United States Politics and Government",
+              "Computers and the Internet",
+              "Company Reports",
+              "Corporations"
+          ],
+          "org_facet": [
+              "Broadcom Corporation",
+              "Huawei Technologies Co Ltd",
+              "Micron Technology Inc",
+              "Efficient Power Conversion Corp"
+          ],
+          "per_facet": [
+              "Lidow, Alex",
+              "Trump, Donald J"
+          ],
+          "geo_facet": [
+              "China"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27jpchips1-print/27jpchips1-print-thumbStandard-v2.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Alex Lidow, chief executive of Efficient Power Conversion, said he feared that Chinese technology companies no longer trusted American suppliers.",
+                  "copyright": "Rozette Rago for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27jpchips1-print/27jpchips1-print-thumbLarge-v2.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Alex Lidow, chief executive of Efficient Power Conversion, said he feared that Chinese technology companies no longer trusted American suppliers.",
+                  "copyright": "Rozette Rago for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27jpchips1-print/27jpchips1-print-articleInline-v2.jpg",
+                  "format": "Normal",
+                  "height": 121,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Alex Lidow, chief executive of Efficient Power Conversion, said he feared that Chinese technology companies no longer trusted American suppliers.",
+                  "copyright": "Rozette Rago for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27jpchips1-print/27jpchips1-print-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Alex Lidow, chief executive of Efficient Power Conversion, said he feared that Chinese technology companies no longer trusted American suppliers.",
+                  "copyright": "Rozette Rago for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27jpchips1-print/27jpchips1-print-superJumbo-v2.jpg",
+                  "format": "superJumbo",
+                  "height": 1301,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Alex Lidow, chief executive of Efficient Power Conversion, said he feared that Chinese technology companies no longer trusted American suppliers.",
+                  "copyright": "Rozette Rago for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FAAsoE"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "Twitter to Label Abusive Tweets From Political Leaders",
+          "abstract": "The labeled messages will not be removed from the service, the company said, because they are a matter of public interest.",
+          "url": "https://www.nytimes.com/2019/06/27/technology/twitter-politicans-labels-abuse.html",
+          "byline": "By KATE CONGER",
+          "item_type": "Article",
+          "updated_date": "2019-06-27T18:21:16-04:00",
+          "created_date": "2019-06-27T16:05:54-04:00",
+          "published_date": "2019-06-27T16:05:54-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Cyberharassment",
+              "Labeling and Labels (Product)",
+              "Computers and the Internet",
+              "Social Media"
+          ],
+          "org_facet": [
+              "Twitter"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27twitter-print/27twitter-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Twitter messages with warning labels will not be removed from the service, the company said, because they are a matter of public interest.",
+                  "copyright": "Loic Venance/Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27twitter-print/27twitter-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Twitter messages with warning labels will not be removed from the service, the company said, because they are a matter of public interest.",
+                  "copyright": "Loic Venance/Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27twitter-print/merlin_156191460_e0a2f74d-8abf-4156-a8f6-b6364a5e0257-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Twitter messages with warning labels will not be removed from the service, the company said, because they are a matter of public interest.",
+                  "copyright": "Loic Venance/Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27twitter-print/merlin_156191460_e0a2f74d-8abf-4156-a8f6-b6364a5e0257-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Twitter messages with warning labels will not be removed from the service, the company said, because they are a matter of public interest.",
+                  "copyright": "Loic Venance/Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/27twitter-print/merlin_156191460_e0a2f74d-8abf-4156-a8f6-b6364a5e0257-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Twitter messages with warning labels will not be removed from the service, the company said, because they are a matter of public interest.",
+                  "copyright": "Loic Venance/Agence France-Presse — Getty Images"
+              }
+          ],
+          "short_url": "https://nyti.ms/2NcBgGv"
+      },
+      {
+          "section": "Fashion",
+          "subsection": "",
+          "title": "Kim Kardashian West and the Kimono Controversy",
+          "abstract": "She responds to accusations of cultural appropriation: “I understand and have deep respect for the significance of the kimono in Japanese culture.”",
+          "url": "https://www.nytimes.com/2019/06/27/fashion/kim-kardashian-west-kimono-cultural-appropriation.html",
+          "byline": "By VANESSA FRIEDMAN",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T15:32:09-04:00",
+          "created_date": "2019-06-27T14:31:51-04:00",
+          "published_date": "2019-06-27T14:31:51-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Kimonos",
+              "Trademarks and Trade Names",
+              "Lingerie and Underwear",
+              "Social Media",
+              "Fashion and Apparel",
+              "your-feed-fashion",
+              "your-feed-selfcare"
+          ],
+          "org_facet": [
+              "Kimono (Fashion Label)"
+          ],
+          "per_facet": [
+              "Kardashian, Kim"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/fashion/28KIM-1/28KIM-1-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Kim Kardashian West’s Kimono Solutionwear, in an advertising campaign photographed by Vanessa Beecroft.",
+                  "copyright": "Vanessa Beecroft"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/fashion/28KIM-1/28KIM-1-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Kim Kardashian West’s Kimono Solutionwear, in an advertising campaign photographed by Vanessa Beecroft.",
+                  "copyright": "Vanessa Beecroft"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/fashion/28KIM-1/merlin_157086243_28678a69-819a-4da6-978a-281ac061db35-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Kim Kardashian West’s Kimono Solutionwear, in an advertising campaign photographed by Vanessa Beecroft.",
+                  "copyright": "Vanessa Beecroft"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/fashion/28KIM-1/merlin_157086243_28678a69-819a-4da6-978a-281ac061db35-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Kim Kardashian West’s Kimono Solutionwear, in an advertising campaign photographed by Vanessa Beecroft.",
+                  "copyright": "Vanessa Beecroft"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/fashion/28KIM-1/merlin_157086243_28678a69-819a-4da6-978a-281ac061db35-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 853,
+                  "width": 1280,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Kim Kardashian West’s Kimono Solutionwear, in an advertising campaign photographed by Vanessa Beecroft.",
+                  "copyright": "Vanessa Beecroft"
+              }
+          ],
+          "short_url": "https://nyti.ms/2NivfIE"
+      },
+      {
+          "section": "Business",
+          "subsection": "",
+          "title": "Ford to Cut 12,000 Jobs in Europe",
+          "abstract": "The automaker said it would close plants across the region, leading to job losses for more than 18 percent of its work force.",
+          "url": "https://www.nytimes.com/2019/06/27/business/ford-jobs-europe.html",
+          "byline": "By AMIE TSANG",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T00:07:50-04:00",
+          "created_date": "2019-06-27T08:35:46-04:00",
+          "published_date": "2019-06-27T08:35:46-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Layoffs and Job Reductions",
+              "Great Britain Withdrawal from EU (Brexit)",
+              "Electric and Hybrid Vehicles",
+              "Driverless and Semiautonomous Vehicles",
+              "Automobiles"
+          ],
+          "org_facet": [
+              "Ford Motor Co"
+          ],
+          "per_facet": [],
+          "geo_facet": [
+              "Europe",
+              "Great Britain"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/world/27ford1/27ford1-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Ford Sollers factory, a joint venture of Ford and Russian partners, in Vsevolozhsk, Russia, in March. Ford said it would it cut about a fifth of its European work force. ",
+                  "copyright": "Anton Vaganov/Reuters"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/world/27ford1/27ford1-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Ford Sollers factory, a joint venture of Ford and Russian partners, in Vsevolozhsk, Russia, in March. Ford said it would it cut about a fifth of its European work force. ",
+                  "copyright": "Anton Vaganov/Reuters"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/world/27ford1/27ford1-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 117,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Ford Sollers factory, a joint venture of Ford and Russian partners, in Vsevolozhsk, Russia, in March. Ford said it would it cut about a fifth of its European work force. ",
+                  "copyright": "Anton Vaganov/Reuters"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/world/27ford1/27ford1-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Ford Sollers factory, a joint venture of Ford and Russian partners, in Vsevolozhsk, Russia, in March. Ford said it would it cut about a fifth of its European work force. ",
+                  "copyright": "Anton Vaganov/Reuters"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/world/27ford1/27ford1-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1367,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A Ford Sollers factory, a joint venture of Ford and Russian partners, in Vsevolozhsk, Russia, in March. Ford said it would it cut about a fifth of its European work force. ",
+                  "copyright": "Anton Vaganov/Reuters"
+              }
+          ],
+          "short_url": "https://nyti.ms/2Lo0MGA"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "Would You Pay $30 a Month to Check Your Email?",
+          "abstract": "One of Silicon Valley’s buzziest start-ups, Superhuman, is betting its app’s shiny features are worth a premium price.",
+          "url": "https://www.nytimes.com/2019/06/27/technology/superhuman-email.html",
+          "byline": "By KEVIN ROOSE",
+          "item_type": "Article",
+          "updated_date": "2019-06-27T11:52:53-04:00",
+          "created_date": "2019-06-27T03:00:12-04:00",
+          "published_date": "2019-06-27T03:00:12-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "E-Mail",
+              "Computers and the Internet",
+              "Mobile Applications",
+              "Venture Capital",
+              "Start-ups"
+          ],
+          "org_facet": [
+              "Superhuman Labs Inc",
+              "Andreessen Horowitz"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27-roose/27-roose-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Pablo Rochat"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27-roose/27-roose-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Pablo Rochat"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27-roose/6f92698ee9bc4b91af8361a77f6c6b91-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 196,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Pablo Rochat"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27-roose/27-roose-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Pablo Rochat"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/27/business/27-roose/6f92698ee9bc4b91af8361a77f6c6b91-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 2048,
+                  "width": 1982,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Pablo Rochat"
+              }
+          ],
+          "short_url": "https://nyti.ms/2X1vOGo"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "Google and the University of Chicago Are Sued Over Data Sharing",
+          "abstract": "The lawsuit demonstrates the tension between building A.I. systems and protecting the privacy of patients.",
+          "url": "https://www.nytimes.com/2019/06/26/technology/google-university-chicago-data-sharing-lawsuit.html",
+          "byline": "By DAISUKE WAKABAYASHI",
+          "item_type": "Article",
+          "updated_date": "2019-06-27T00:09:32-04:00",
+          "created_date": "2019-06-26T19:00:04-04:00",
+          "published_date": "2019-06-26T19:00:04-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Electronic Health Records",
+              "Computers and the Internet",
+              "Privacy",
+              "Suits and Litigation (Civil)",
+              "Artificial Intelligence",
+              "Hospitals"
+          ],
+          "org_facet": [
+              "Google Inc",
+              "University of Chicago",
+              "DeepMind Technologies Ltd"
+          ],
+          "per_facet": [
+              "Edelson, Jay (1972- )"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26privacy1/26privacy1-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Sundar Pichai, Google’s chief executive, testifying at a House of Representatives hearing last year. Google is building artificial intelligence that can diagnose medical conditions, which is raising privacy concerns.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26privacy1/26privacy1-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Sundar Pichai, Google’s chief executive, testifying at a House of Representatives hearing last year. Google is building artificial intelligence that can diagnose medical conditions, which is raising privacy concerns.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26privacy1/merlin_148014648_43c90880-789f-4766-a448-a363ceb7c202-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Sundar Pichai, Google’s chief executive, testifying at a House of Representatives hearing last year. Google is building artificial intelligence that can diagnose medical conditions, which is raising privacy concerns.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26privacy1/26privacy1-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Sundar Pichai, Google’s chief executive, testifying at a House of Representatives hearing last year. Google is building artificial intelligence that can diagnose medical conditions, which is raising privacy concerns.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26privacy1/merlin_148014648_43c90880-789f-4766-a448-a363ceb7c202-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Sundar Pichai, Google’s chief executive, testifying at a House of Representatives hearing last year. Google is building artificial intelligence that can diagnose medical conditions, which is raising privacy concerns.",
+                  "copyright": "Sarah Silbiger/The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2X5X6vc"
+      },
+      {
+          "section": "Health",
+          "subsection": "",
+          "title": "‘It’s Gigantic’: A New Way to Gauge the Chances for Unresponsive Patients",
+          "abstract": "Researchers have found a way to detect “covert consciousness” that could aid the recovery of people with severe brain injuries.",
+          "url": "https://www.nytimes.com/2019/06/26/health/brain-injury-eeg-consciousness.html",
+          "byline": "By BENEDICT CAREY",
+          "item_type": "Article",
+          "updated_date": "2019-06-27T05:00:56-04:00",
+          "created_date": "2019-06-26T17:02:04-04:00",
+          "published_date": "2019-06-26T17:02:04-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Brain",
+              "Psychology and Psychologists",
+              "Life-Sustaining Support Systems, Withdrawal Of",
+              "Nerves and Nervous System",
+              "your-feed-science"
+          ],
+          "org_facet": [
+              "New England Journal of Medicine",
+              "Columbia University",
+              "New York University"
+          ],
+          "per_facet": [
+              "Claassen, Jan"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26BRAIN/26BRAIN-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An electroencephalogram, or EEG, shows electrodes attached to a patient’s head. When used on unresponsive brain-injury patients, an EEG can help detect hidden brain activity.",
+                  "copyright": "Zephyr/Science Source"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26BRAIN/26BRAIN-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An electroencephalogram, or EEG, shows electrodes attached to a patient’s head. When used on unresponsive brain-injury patients, an EEG can help detect hidden brain activity.",
+                  "copyright": "Zephyr/Science Source"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26BRAIN/26BRAIN-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 120,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An electroencephalogram, or EEG, shows electrodes attached to a patient’s head. When used on unresponsive brain-injury patients, an EEG can help detect hidden brain activity.",
+                  "copyright": "Zephyr/Science Source"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26BRAIN/26BRAIN-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An electroencephalogram, or EEG, shows electrodes attached to a patient’s head. When used on unresponsive brain-injury patients, an EEG can help detect hidden brain activity.",
+                  "copyright": "Zephyr/Science Source"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26BRAIN/26BRAIN-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "An electroencephalogram, or EEG, shows electrodes attached to a patient’s head. When used on unresponsive brain-injury patients, an EEG can help detect hidden brain activity.",
+                  "copyright": "Zephyr/Science Source"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FyhdfG"
+      },
+      {
+          "section": "U.S.",
+          "subsection": "Politics",
+          "title": "Reddit Restricts Pro-Trump Forum Because of Threats",
+          "abstract": "The subreddit The_Donald was “quarantined” after users posted threats of violence against police officers and politicians in Oregon, administrators said.",
+          "url": "https://www.nytimes.com/2019/06/26/us/politics/reddit-donald-trump-quarantined.html",
+          "byline": "By NEIL VIGDOR and NIRAJ CHOKSHI",
+          "item_type": "Article",
+          "updated_date": "2019-06-26T17:26:07-04:00",
+          "created_date": "2019-06-26T14:20:07-04:00",
+          "published_date": "2019-06-26T14:20:07-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "United States Politics and Government",
+              "Computers and the Internet"
+          ],
+          "org_facet": [
+              "Reddit Inc"
+          ],
+          "per_facet": [
+              "Trump, Donald J"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26xp-reddit-promo/26xp-reddit-promo-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Illustration by The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26xp-reddit-promo/26xp-reddit-promo-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Illustration by The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26xp-reddit-promo/26xp-reddit-promo-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Illustration by The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26xp-reddit-promo/26xp-reddit-promo-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Illustration by The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26xp-reddit-promo/26xp-reddit-promo-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 700,
+                  "width": 1050,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Illustration by The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2YeW7dx"
+      },
+      {
+          "section": "Technology",
+          "subsection": "Personal Tech",
+          "title": "For a TV Editor, 500 New Shows a Year Require a Fresh Script",
+          "abstract": "Coverage is adapting to a flood of programming, and tools that Jeremy Egner relied on for “Game of Thrones” (hello, fan wikis!) are now being applied to other shows.",
+          "url": "https://www.nytimes.com/2019/06/26/technology/personaltech/for-a-tv-editor-500-new-shows-a-year-require-a-fresh-script.html",
+          "byline": "By JEREMY EGNER",
+          "item_type": "Article",
+          "updated_date": "2019-06-28T04:52:07-04:00",
+          "created_date": "2019-06-26T13:19:42-04:00",
+          "published_date": "2019-06-26T13:19:42-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Television",
+              "Television Sets and Media Devices",
+              "3-D Devices and Effects",
+              "Game of Thrones (TV Program)",
+              "Computers and the Internet"
+          ],
+          "org_facet": [
+              "New York Times",
+              "Apple TV",
+              "Netflix Inc"
+          ],
+          "per_facet": [
+              "Enger, Jeremy"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26techusing1/26techusing1-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jeremy Egner, television editor for The New York Times, working at home.",
+                  "copyright": "Amy Li for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26techusing1/26techusing1-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jeremy Egner, television editor for The New York Times, working at home.",
+                  "copyright": "Amy Li for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26techusing1/merlin_156992151_86ad1d07-617e-467b-820f-9a5393715f94-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jeremy Egner, television editor for The New York Times, working at home.",
+                  "copyright": "Amy Li for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26techusing1/26techusing1-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jeremy Egner, television editor for The New York Times, working at home.",
+                  "copyright": "Amy Li for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26techusing1/merlin_156992151_86ad1d07-617e-467b-820f-9a5393715f94-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Jeremy Egner, television editor for The New York Times, working at home.",
+                  "copyright": "Amy Li for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FwnB6T"
+      },
+      {
+          "section": "Science",
+          "subsection": "",
+          "title": "Unleashed, Robo-Insect Takes Flight",
+          "abstract": "Tiny wings and tinier solar cells allow autonomous movement in a new robotic “bee.”",
+          "url": "https://www.nytimes.com/2019/06/26/science/robot-insect-flight-engineering.html",
+          "byline": "By KNVUL SHEIKH",
+          "item_type": "Article",
+          "updated_date": "2019-06-26T13:00:09-04:00",
+          "created_date": "2019-06-26T13:00:09-04:00",
+          "published_date": "2019-06-26T13:00:09-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Robots and Robotics",
+              "Solar Energy",
+              "Insects",
+              "your-feed-science",
+              "Miniaturization"
+          ],
+          "org_facet": [
+              "Carnegie Mellon University",
+              "Harvard University"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26TB-ROBOBEE/26TB-ROBOBEE-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "With four wings, the diminutive RoboBee X-Wing can achieve the thrust efficiency of similarly sized insects such as bees.",
+                  "copyright": "Noah T. Jafferis and E. Farrell Helbling, Harvard Microrobotics Laboratory"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26TB-ROBOBEE/26TB-ROBOBEE-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "With four wings, the diminutive RoboBee X-Wing can achieve the thrust efficiency of similarly sized insects such as bees.",
+                  "copyright": "Noah T. Jafferis and E. Farrell Helbling, Harvard Microrobotics Laboratory"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26TB-ROBOBEE/26TB-ROBOBEE-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 127,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "With four wings, the diminutive RoboBee X-Wing can achieve the thrust efficiency of similarly sized insects such as bees.",
+                  "copyright": "Noah T. Jafferis and E. Farrell Helbling, Harvard Microrobotics Laboratory"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26TB-ROBOBEE/26TB-ROBOBEE-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "With four wings, the diminutive RoboBee X-Wing can achieve the thrust efficiency of similarly sized insects such as bees.",
+                  "copyright": "Noah T. Jafferis and E. Farrell Helbling, Harvard Microrobotics Laboratory"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/science/26TB-ROBOBEE/26TB-ROBOBEE-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 1366,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "With four wings, the diminutive RoboBee X-Wing can achieve the thrust efficiency of similarly sized insects such as bees.",
+                  "copyright": "Noah T. Jafferis and E. Farrell Helbling, Harvard Microrobotics Laboratory"
+              }
+          ],
+          "short_url": "https://nyti.ms/2FBthfY"
+      },
+      {
+          "section": "Technology",
+          "subsection": "",
+          "title": "Buy Low-Tops, Sell High-Tops: StockX Sneaker Exchange Is Worth $1 Billion",
+          "abstract": "StockX is one of several online marketplaces that have turned resales of shoes into a big — and highly valued — business.",
+          "url": "https://www.nytimes.com/2019/06/26/technology/trading-sneakers-stockx.html",
+          "byline": "By ERIN GRIFFITH",
+          "item_type": "Article",
+          "updated_date": "2019-06-27T00:13:18-04:00",
+          "created_date": "2019-06-26T05:00:23-04:00",
+          "published_date": "2019-06-26T05:00:23-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Venture Capital",
+              "Sneakers",
+              "Shopping and Retail",
+              "E-Commerce",
+              "Appointments and Executive Changes",
+              "Computers and the Internet"
+          ],
+          "org_facet": [
+              "StockX"
+          ],
+          "per_facet": [
+              "Cutler, Scott (1969- )",
+              "Luber, Josh"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26stockx/26stockx-thumbStandard.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Scott Cutler, left, the new chief executive of StockX, and Josh Luber, the founder, in the company’s storage room at its Detroit headquarters.",
+                  "copyright": "Nick Hagen for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26stockx/26stockx-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Scott Cutler, left, the new chief executive of StockX, and Josh Luber, the founder, in the company’s storage room at its Detroit headquarters.",
+                  "copyright": "Nick Hagen for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26stockx/merlin_156972309_036ac113-ecea-4d93-86fa-889647fb3223-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 285,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Scott Cutler, left, the new chief executive of StockX, and Josh Luber, the founder, in the company’s storage room at its Detroit headquarters.",
+                  "copyright": "Nick Hagen for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26stockx/26stockx-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Scott Cutler, left, the new chief executive of StockX, and Josh Luber, the founder, in the company’s storage room at its Detroit headquarters.",
+                  "copyright": "Nick Hagen for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26stockx/merlin_156972309_036ac113-ecea-4d93-86fa-889647fb3223-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 2048,
+                  "width": 1366,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Scott Cutler, left, the new chief executive of StockX, and Josh Luber, the founder, in the company’s storage room at its Detroit headquarters.",
+                  "copyright": "Nick Hagen for The New York Times"
+              }
+          ]
+      },
+      {
+          "section": "Technology",
+          "subsection": "Personal Tech",
+          "title": "A Comprehensive Guide to Taking Your Smartphone Abroad for Cheap",
+          "abstract": "For $15 to $40, you can easily take your phone to a foreign country and enjoy access to apps, maps and the web. But it takes a lot of steps, hence this travel guide.",
+          "url": "https://www.nytimes.com/2019/06/26/technology/personaltech/sim-cards-foreign-vacation.html",
+          "byline": "By BRIAN X. CHEN",
+          "item_type": "Article",
+          "updated_date": "2019-06-30T08:31:17-04:00",
+          "created_date": "2019-06-26T05:00:11-04:00",
+          "published_date": "2019-06-26T05:00:11-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Maps",
+              "Mobile Applications",
+              "Wireless Communications",
+              "Smartphones",
+              "Travel and Vacations",
+              "Telephones and Telecommunications"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26Techfix-illo/26Techfix-illo-thumbStandard.gif",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Glenn Harvey"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26Techfix-illo/34eb1bdcd2c04175b0aaf92006e13606-thumbLarge.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Glenn Harvey"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26Techfix-illo/26Techfix-illo-articleInline.gif",
+                  "format": "Normal",
+                  "height": 114,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Glenn Harvey"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26Techfix-illo/34eb1bdcd2c04175b0aaf92006e13606-mediumThreeByTwo210.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Glenn Harvey"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/26/business/26Techfix-illo/26Techfix-illo-superJumbo.gif",
+                  "format": "superJumbo",
+                  "height": 614,
+                  "width": 1024,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Glenn Harvey"
+              }
+          ],
+          "short_url": "https://nyti.ms/31XeBSe"
+      }
+  ]
+}

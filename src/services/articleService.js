@@ -1,70 +1,73 @@
-import nytimes from '@/http/nytimes';
+class ArticleService {
+  constructor(http) {
+    this.http = http;
+  }
 
-const LIMIT_ARTICLES_TO_DISPLAY = 12;
+  areSectionsValid = sections => sections && sections.length > 0;
 
-const areSectionsValid = sections => sections && sections.length > 0;
+  isPossibleToHaveDuplicatedArticles = sections => sections.length > 1;
 
-const getArticlesFromSections = async (sections) => {
-  let articles = [];
+  getArticlesWithLimit = (articles, limit) => articles.slice(0, limit);
 
-  for (let i = 0; i < sections.length; i += 1) {
-    // TODO: await inside loop :'(
-    const result = await nytimes.getTopStoriesFromSection(sections[i]);
-    if (result.data) {
-      articles = articles.concat(result.data.results);
+  removeSomeSpecialChars = text => text.replace(/\//g, '').replace(/\?/g, '');
+
+  getArticlesFromSections = async (sections) => {
+    let articles = [];
+
+    for (let i = 0; i < sections.length; i += 1) {
+      // TODO: await inside loop :'(
+      const result = await this.http.getTopStoriesFromSection(sections[i]);
+      if (result.data) {
+        articles = articles.concat(result.data.results);
+      }
     }
-  }
 
-  return articles;
-};
+    return articles;
+  };
 
-const isPossibleToHaveDuplicatedArticles = sections => sections.length > 1;
+  getUniqueArticles = articles => articles.reduce((accumulator, current) => {
+    const duplicated = accumulator.find(item => item.short_url === current.short_url);
 
-const getUniqueArticles = articles => articles.reduce((accumulator, current) => {
-  const duplicated = accumulator.find(item => item.short_url === current.short_url);
+    return duplicated ? accumulator : accumulator.concat([current]);
+  }, []);
 
-  return duplicated ? accumulator : accumulator.concat([current]);
-}, []);
+  orderByPublishedDateDesc = (prev, next) => {
+    const prevPublishedDate = prev.published_date;
+    const nextPublishedDate = next.published_date;
 
-const orderByPublishedDateDesc = (prev, next) => {
-  const prevPublishedDate = prev.published_date;
-  const nextPublishedDate = next.published_date;
+    return prevPublishedDate < nextPublishedDate ? 1 : -1;
+  };
 
-  return prevPublishedDate < nextPublishedDate ? 1 : -1;
-};
+  findArticleByTitle = (articles, title) => {
+    const titleWithoutSpecialChars = this.removeSomeSpecialChars(title);
+    return articles.find(a => this.removeSomeSpecialChars(a.title) === titleWithoutSpecialChars);
+  };
 
-const getArticlesWithLimit = (articles, limit) => articles.slice(0, limit);
+  getArticles = async (sections, limit) => {
+    if (!this.areSectionsValid(sections)) {
+      return [];
+    }
 
-const removeSomeSpecialChars = text => text.replace(/\//g, '').replace(/\?/g, '');
+    let articles = await this.getArticlesFromSections(sections);
+    if (this.isPossibleToHaveDuplicatedArticles(sections)) {
+      articles = this.getUniqueArticles(articles);
+    }
+    articles = articles.sort(this.orderByPublishedDateDesc);
+    articles = this.getArticlesWithLimit(articles, limit);
 
-const findArticleByTitle = (articles, title) => {
-  const titleWithoutSpecialChars = removeSomeSpecialChars(title);
-  return articles.find(a => removeSomeSpecialChars(a.title) === titleWithoutSpecialChars);
-};
-const getArticles = async (sections) => {
-  if (!areSectionsValid(sections)) {
-    return [];
-  }
+    return articles;
+  };
 
-  let articles = await getArticlesFromSections(sections);
-  if (isPossibleToHaveDuplicatedArticles(sections)) {
-    articles = getUniqueArticles(articles);
-  }
-  articles = articles.sort(orderByPublishedDateDesc);
-  articles = getArticlesWithLimit(articles, LIMIT_ARTICLES_TO_DISPLAY);
+  getArticle = async (title, sections) => {
+    if (!this.areSectionsValid(sections)) {
+      return {};
+    }
 
-  return articles;
-};
+    const articles = await this.getArticlesFromSections(sections);
+    const article = this.findArticleByTitle(articles, title);
 
-const getArticle = async (title, sections) => {
-  if (!areSectionsValid(sections)) {
-    return {};
-  }
+    return article;
+  };
+}
 
-  const articles = await getArticlesFromSections(sections);
-  const article = findArticleByTitle(articles, title);
-
-  return article;
-};
-
-export default { getArticles, getArticle };
+export default ArticleService;

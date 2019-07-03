@@ -33,9 +33,7 @@
                 <span class="icon">
                   <i class="fas fa-at"></i>
                 </span>
-                <span class="is-size-7">
-                  {{ this.article.byline }}
-                </span>
+                <span class="is-size-7">{{ this.article.byline }}</span>
               </div>
             </div>
           </div>
@@ -59,8 +57,10 @@
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 import Article from '@/model/article';
 
-import articleService from '@/services/articleService';
+import ArticleService from '@/services/articleService';
 import sectionService from '@/services/sectionService';
+
+import http from '@/http/nytimes';
 
 export default {
   name: 'article-details',
@@ -80,18 +80,15 @@ export default {
     };
   },
   async mounted() {
-    const section = sectionService.getSectionByName(this.$route.params.section);
-    const nytimesArticle = await articleService.getArticle(
+    this.article = await this.getArticleBasedOnParams(
+      this.$route.params.section,
       this.$route.params.title,
-      section.slugs,
     );
 
-    if (!nytimesArticle || !Object.keys(nytimesArticle).length) {
-      this.goBackToSection();
+    if (!this.article) {
       return;
     }
 
-    this.article = new Article(nytimesArticle);
     this.image = this.article.getImage('superJumbo');
     this.loading = false;
 
@@ -100,6 +97,21 @@ export default {
     });
   },
   methods: {
+    async getArticleBasedOnParams(sectionName, title) {
+      const section = sectionService.getSectionByName(sectionName);
+      const articleService = new ArticleService(http);
+      const nytimesArticle = await articleService.getArticle(
+        title,
+        section.slugs,
+      );
+
+      if (!nytimesArticle || !Object.keys(nytimesArticle).length) {
+        this.goBackToSection();
+        return null;
+      }
+
+      return new Article(nytimesArticle);
+    },
     goToFullArticle() {
       window.mixpanel.track('Click read full article', {
         urlFullArticle: this.article.urlFullArticle,
