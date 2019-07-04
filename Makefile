@@ -6,6 +6,7 @@ install:
 	npm run install
 
 test:
+	npm run build
 	npm run test:unit
 	docker-compose build
 	docker-compose up -d

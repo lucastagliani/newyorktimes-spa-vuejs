@@ -8,6 +8,8 @@ const selectors = {
   sectionTitle: 'h1.title',
   sectionDescription: 'p.subtitle',
   articleItem: 'a.card',
+  backToHomePageButton: '.level-left .button',
+  homePageLogo: '.hero-body img'
 };
 
 describe('Section details page', () => {
@@ -37,5 +39,14 @@ describe('Section details page', () => {
 
     // Then the URL should contains 'articles'
     cy.url().should('contain', `${pagePath}/`);
+  });
+
+  it('should be able to go back to home page', () => {
+    // When I click on the back home page
+    cy.get(selectors.backToHomePageButton)
+      .click();
+
+    // Then home page should be loaded
+    cy.get(selectors.homePageLogo);
   });
 });
