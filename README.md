@@ -42,7 +42,7 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 * axios para fazer as requisições HTTP na [API do "nytimes"](https://developer.nytimes.com/);
 * Mixpanel para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles;
 
-![Image](extra-images/mixpanel-conversion-funil.png "Mixpanel")
+![Image](extra-content/mixpanel-conversion-funil.png "Mixpanel")
 
 ## O que foi feito:
 
@@ -106,7 +106,7 @@ _Se você já sabe como funciona um [Makefile](Makefile), pode dar uma olhada ne
 
 Em ambos casos, você poderá acessar o sistema em `http://localhost:3000` - A menos que a variável de ambiente `PORT` tenha algum valor customizado no seu computador.
 
-![Image](extra-images/how-to-run-it.png "How to run it")
+![Image](extra-content/how-to-run-it.png "How to run it")
 
 Para parar a execução do sistema, um CTRL + C no terminal deve bastar.
 
