@@ -2,7 +2,9 @@
 
 [![CircleCI](https://circleci.com/gh/lucastagliani/newyorktimes-spa-vuejs.svg?style=svg)](https://circleci.com/gh/lucastagliani/newyorktimes-spa-vuejs)
 
-* Este arquivo foi escrito em português e evita estrangeirismos para que não limite o seu compreendimento à  pessoas que possuem conhecimento no idioma inglês.
+Publicado gratuitamente em: https://newyorktimes-spa-vuejs.herokuapp.com/
+
+* Este arquivo foi escrito em português e, apesar de ter vários termos da área de tecnologia da informação, evita estrangeirismos desnecessários para que não limite o seu compreendimento à pessoas que possuem conhecimento no idioma inglês.
 
 ## Esta é a solução certa?
 
@@ -11,42 +13,43 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 1. Este sistema é a melhor maneira de manter a equipe da _Thoughtworks_ atualizada? Que outras maneiras seriam possíveis?
 2. Se sim, como será a divulgação deste sistema para as pessoas da equipe?
 3. Existe algum dia do mês, da semana ou horário do dia que o sistema será acessado com mais frequência? Quão frequente você imagina que seja?
-4. Será mais acessado pelo celular ou pelo computador? E por tables? Televisões? Algum outro dispositivo? Quais navegadores serão utilizados?
+4. Será mais acessado pelo celular ou pelo computador? E por _tablets_? Televisões? Algum outro dispositivo? Quais navegadores serão utilizados?
 5. O que faria as pessoas acessarem este sistema ao invés de acessar diretamente o site do _The New York Times_? Qual o diferencial?
 
 ## Regras de negócio / Suposições
 
 * Uma das seções do site (_Science & Tech_) soma os artigos das seções "science" e "technology" da API do NYTimes;
 * São exibidos no máximo 12 artigos por seção;
-* Entre performance e a possibilidade de compartilhar a URL de artigos com outras pessoas, a segunda foi priorizada;
+* Entre performance e a possibilidade de compartilhar a URL de artigos com outras pessoas, a segunda foi priorizada. Por isto, o título do artigo é utilizado para montar a URL de um artigo - já que a API não retorna uma outra informação confiável que possa ser utilizada como identificação única.
 * Caminhos de URL inválidos são automaticamente redirecionados para caminhos válidos;
 
 ## Resumo do que você vai encontrar aqui (tecnicamente):
 
 * Estrutura do código com [Vue.js](https://vuejs.org/);
-* Versionamento de código com [Git](https://git-scm.com/);
-* Repositório de código no [GitHub](https://github.com/lucastagliani/notes-webapi-nodejs), mas de forma particular, respeitando o critério de não compartilhar esta solução;
-* Gerenciamento de pacotes com [NPM](https://www.npmjs.com/);
+* Versionamento com [Git](https://git-scm.com/);
+* Repositório no [GitHub](https://github.com/lucastagliani/notes-webapi-nodejs), mas de forma particular, respeitando o critério de não compartilhar esta solução publicamente. Se vocês tentarem acessar, vão receber o erro "404 - Não encontrado";
+* Gerenciamento de pacotes/dependências com [NPM](https://www.npmjs.com/);
 * Padronização de código com [ESLint](https://eslint.org/) e [EditorConfig](https://editorconfig.org/);
-* Containerização com [Docker](https://www.docker.com/);
+* Containerização com [Docker](https://www.docker.com/) e [docker-compose](https://docs.docker.com/compose/);
 * Integração contínua com [CircleCI](https://circleci.com/);
-* Versão publicada em [Heroku](https://www.heroku.com/), mas sem compartilhar com ninguém o endereço;
-* Testes unitários com [Chai](https://www.chaijs.com/);
+* Versão publicada em [Heroku](https://www.heroku.com/), mas sem compartilhar publicamente o endereço;
+* Testes unitários com [vue-test-utils](https://vue-test-utils.vuejs.org/), [Mocha](https://mochajs.org/) e [Chai](https://www.chaijs.com/);
 * Testes funcionais com [Cypress](https://www.cypress.io/);
+* Estilização da estrutura visual com [Bulma.io](https://bulma.io/);
 * Eventos analíticos com [Mixpanel](https://mixpanel.com/);
 
 ## Das bibliotecas e ferramentas utilizadas:
 
 * Apesar de Angular 2+ com _typescript_ ser a estrutura de _front-end_ que tenho mais conhecimento, escolhi Vue.js com o objetivo de aproveitar este projeto para aprofundar meus conhecimentos nesta biblioteca que uso profissionalmente há 5 meses.
-* Bulma.io por ser uma biblioteca simples de CSS e ajudar na construção da interface;
-* axios para fazer as requisições HTTP na [API do "nytimes"](https://developer.nytimes.com/);
+* Bulma.io por ser uma biblioteca simples de CSS e ajudar na construção da parte visual;
+* axios para fazer as requisições HTTP de forma simples na [API do "nytimes"](https://developer.nytimes.com/);
 * Mixpanel para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles;
 
-![Image](extra-content/mixpanel-conversion-funil.png "Mixpanel")
+![Image](extra-content/mixpanel-conversion-funil.png "Exemplo de funil considerando o carregamento do site até o momento que a pessoa usuária mostra interesse em ler a notícia inteira.")
 
 ## O que foi feito:
 
-* O _desgin_ do sistema traz lembranças do _New York Times_, utilizando o mesmo _favicon_, título, logotipo, uma fonte similar e cores apenas com tons de preto para manter a essência, mas com uma interface mais limpa e moderna exibindo menos seções e artigos. A página inicial, ao invés de trazer notícias de várias seções diferentes, traz apenas a escolha de seções pré-definidas com um linguajar um pouco mais coloquial. O idioma no site é em inglês para que seja coerente com o conteúdo dos artigos retornados da _[API](http://developer.nytimes.com/)_.
+* O _desgin_ do sistema traz lembranças do _New York Times_, utilizando o mesmo _favicon_, título, logotipo, uma fonte similar e cores apenas com tons de preto para manter a essência, mas com uma identidade visual mais limpa e moderna exibindo menos seções e artigos. A página inicial, ao invés de trazer notícias de várias seções diferentes, traz apenas a escolha de seções pré-definidas com um linguajar um pouco mais coloquial. O idioma no site é em inglês para que seja coerente com o conteúdo dos artigos retornados da _[API](http://developer.nytimes.com/)_.
 
 * Qualquer requisição feita num endereço inexistente redireciona o usuário para a página inicial `"/nyttop"`.
 
@@ -58,7 +61,7 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 
 * Este código é escrito mais para humanos do que para máquinas, então as variáveis, propriedades e métodos tem nomenclaturas significativas, evitando abreviações. Na mesma linha de raciocínio, alguns métodos tem apenas uma linha de código, mas por terem um nome significativo, deixam a leitura do código clara.
 
-* Cada `push` feito na _branch_ `master` vai disparar uma tarefa na [ferramenta de integração contínua](https://circleci.com/gh/lucastagliani/newyorktimes-spa-vuejs) que vai compilar o código fonte, executar os testes unitários e funcionais e, se tudo der certo, publicá-lo em [Heroku](https://newyorktimes-spa-vuejs.herokuapp.com/).
+* Cada `push` feito na _branch_ `master` vai disparar uma tarefa na [ferramenta de integração contínua](https://circleci.com/gh/lucastagliani/newyorktimes-spa-vuejs) que vai compilar o código fonte, executar os testes unitários, funcionais e, se tudo der certo, publicá-lo no [Heroku](https://newyorktimes-spa-vuejs.herokuapp.com/).
 
 * Cada `commit` feito no código fonte, dispara uma tarefa do _lint_ para manter a padronização de código num certo nível.
 
@@ -73,7 +76,7 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 * Melhorar tratamento de erros de API externa;
 * Uso de variáveis no CSS;
 * Testes funcionais e2e deveriam usar CYPRESS COMMANDS para requisitar seções ou artigos (mas para isto, deveríamos ter um maior controle da API, utilizando POSTs ou podendo fazer GET em artigos mais antigos) ao invés de fazer isto navegando pela página quando não fosse o principal a ser testado, também evitaria seletores duplicados entre os arquivos de testes de detalhe de seção e de artigo;
-* Testar views também de forma unitária, criando mocks para as camadas de serviço através das `props` dos componentes Vue;
+* Testar views não só de maneira funcional, também de forma unitária, criando mocks para as camadas de serviço através das `props` dos componentes Vue;
 * Diversos TODOs no código;
 
 ## Pré-requisitos para rodar a aplicação
