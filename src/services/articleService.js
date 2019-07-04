@@ -3,9 +3,13 @@ class ArticleService {
     this.http = http;
   }
 
-  areSectionsValid = sections => sections && sections.length > 0;
+  areSectionsValid = sections => sections && sections.length > 0 && sections.every(s => s !== '');
+
+  isTitleValid = title => title && title.length > 0;
 
   isPossibleToHaveDuplicatedArticles = sections => sections.length > 1;
+
+  hasLimitDefined = limit => !limit;
 
   getArticlesWithLimit = (articles, limit) => articles.slice(0, limit);
 
@@ -52,14 +56,18 @@ class ArticleService {
     if (this.isPossibleToHaveDuplicatedArticles(sections)) {
       articles = this.getUniqueArticles(articles);
     }
+
     articles = articles.sort(this.orderByPublishedDateDesc);
-    articles = this.getArticlesWithLimit(articles, limit);
+
+    if (this.hasLimitDefined(limit)) {
+      articles = this.getArticlesWithLimit(articles, limit);
+    }
 
     return articles;
   };
 
   getArticle = async (title, sections) => {
-    if (!this.areSectionsValid(sections)) {
+    if (!this.isTitleValid(title) || !this.areSectionsValid(sections)) {
       return {};
     }
 

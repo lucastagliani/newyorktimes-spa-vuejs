@@ -90,88 +90,6 @@
       },
       {
           "section": "Business",
-          "subsection": "",
-          "title": "Meet the Man Quietly Building the Tesla of Trucks, With Jeff Bezos Aboard",
-          "abstract": "R. J. Scaringe’s company, Rivian, has raised $1.7 billion from Amazon, Ford Motor and others without selling a single pickup truck and sport utility vehicle.",
-          "url": "https://www.nytimes.com/2019/07/02/business/rj-scaringe-rivian.html",
-          "byline": "By NELSON D. SCHWARTZ",
-          "item_type": "Article",
-          "updated_date": "2019-07-02T14:52:57-04:00",
-          "created_date": "2019-07-02T05:00:26-04:00",
-          "published_date": "2019-07-02T05:00:26-04:00",
-          "material_type_facet": "",
-          "kicker": "",
-          "des_facet": [
-              "Automobiles",
-              "Electric and Hybrid Vehicles",
-              "Sports Utility Vehicles and Light Trucks",
-              "Start-ups"
-          ],
-          "org_facet": [
-              "Rivian Automotive LLC",
-              "Amazon.com Inc"
-          ],
-          "per_facet": [
-              "Scaringe, R J",
-              "Bezos, Jeffrey P"
-          ],
-          "geo_facet": [],
-          "multimedia": [
-              {
-                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-thumbStandard-v2.jpg",
-                  "format": "Standard Thumbnail",
-                  "height": 75,
-                  "width": 75,
-                  "type": "image",
-                  "subtype": "photo",
-                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
-                  "copyright": "Evan Jenkins for The New York Times"
-              },
-              {
-                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-thumbLarge-v2.jpg",
-                  "format": "thumbLarge",
-                  "height": 150,
-                  "width": 150,
-                  "type": "image",
-                  "subtype": "photo",
-                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
-                  "copyright": "Evan Jenkins for The New York Times"
-              },
-              {
-                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/merlin_156864453_6dcbdc4d-0718-4852-b1c8-cc422f1eb4b6-articleInline.jpg",
-                  "format": "Normal",
-                  "height": 238,
-                  "width": 190,
-                  "type": "image",
-                  "subtype": "photo",
-                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
-                  "copyright": "Evan Jenkins for The New York Times"
-              },
-              {
-                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-mediumThreeByTwo210-v2.jpg",
-                  "format": "mediumThreeByTwo210",
-                  "height": 140,
-                  "width": 210,
-                  "type": "image",
-                  "subtype": "photo",
-                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
-                  "copyright": "Evan Jenkins for The New York Times"
-              },
-              {
-                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/merlin_156864453_6dcbdc4d-0718-4852-b1c8-cc422f1eb4b6-superJumbo.jpg",
-                  "format": "superJumbo",
-                  "height": 2048,
-                  "width": 1639,
-                  "type": "image",
-                  "subtype": "photo",
-                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
-                  "copyright": "Evan Jenkins for The New York Times"
-              }
-          ],
-          "short_url": "https://nyti.ms/2Lu3RVv"
-      },
-      {
-          "section": "Business",
           "subsection": "DealBook",
           "title": "What Trump’s Huawei Reversal Means for the Future of 5G",
           "abstract": "Huawei is the top threat to American dominance in wireless technology. And the U.S. is woefully, even disgracefully, behind.",
@@ -257,6 +175,88 @@
               }
           ],
           "short_url": "https://nyti.ms/2NrUjNe"
+      },
+      {
+          "section": "Business",
+          "subsection": "",
+          "title": "Meet the Man Quietly Building the Tesla of Trucks, With Jeff Bezos Aboard",
+          "abstract": "R. J. Scaringe’s company, Rivian, has raised $1.7 billion from Amazon, Ford Motor and others without selling a single pickup truck and sport utility vehicle.",
+          "url": "https://www.nytimes.com/2019/07/02/business/rj-scaringe-rivian.html",
+          "byline": "By NELSON D. SCHWARTZ",
+          "item_type": "Article",
+          "updated_date": "2019-07-02T14:52:57-04:00",
+          "created_date": "2019-07-02T05:00:26-04:00",
+          "published_date": "2019-07-02T05:00:26-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Automobiles",
+              "Electric and Hybrid Vehicles",
+              "Sports Utility Vehicles and Light Trucks",
+              "Start-ups"
+          ],
+          "org_facet": [
+              "Rivian Automotive LLC",
+              "Amazon.com Inc"
+          ],
+          "per_facet": [
+              "Scaringe, R J",
+              "Bezos, Jeffrey P"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-thumbStandard-v2.jpg",
+                  "format": "Standard Thumbnail",
+                  "height": 75,
+                  "width": 75,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-thumbLarge-v2.jpg",
+                  "format": "thumbLarge",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/merlin_156864453_6dcbdc4d-0718-4852-b1c8-cc422f1eb4b6-articleInline.jpg",
+                  "format": "Normal",
+                  "height": 238,
+                  "width": 190,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/28rivian1-mediumThreeByTwo210-v2.jpg",
+                  "format": "mediumThreeByTwo210",
+                  "height": 140,
+                  "width": 210,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2019/06/28/business/28rivian1/merlin_156864453_6dcbdc4d-0718-4852-b1c8-cc422f1eb4b6-superJumbo.jpg",
+                  "format": "superJumbo",
+                  "height": 2048,
+                  "width": 1639,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "R.J. Scaringe, the founder of Rivian, at the company’s plant in Normal, Ill.",
+                  "copyright": "Evan Jenkins for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/2Lu3RVv"
       },
       {
           "section": "Business",

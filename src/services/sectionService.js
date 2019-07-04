@@ -1,14 +1,16 @@
 import predefinedSections from '@/data/predefinedSections.json';
 
-const getSections = () => predefinedSections;
+class SectionService {
+  getSections = () => predefinedSections;
 
-const getSectionByName = (name) => {
-  const result = predefinedSections.find(s => s.name === name);
-  if (!result) {
-    return {};
-  }
+  getSectionByName = (name) => {
+    const result = predefinedSections.find(s => s.name === name);
+    if (!result) {
+      return {};
+    }
 
-  return result;
-};
+    return result;
+  };
+}
 
-export default { getSections, getSectionByName };
+export default SectionService;

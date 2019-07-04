@@ -57,6 +57,8 @@ import sectionService from '@/services/sectionService';
 
 import http from '@/http/nytimes';
 
+const ARTICLES_TO_DISPLAY = 12;
+
 export default {
   name: 'section-details',
   components: {
@@ -82,7 +84,7 @@ export default {
 
     window.mixpanel.track('Load section', { section_name: this.section.name });
     const articleService = new ArticleService(http);
-    this.articles = await articleService.getArticles(this.section.slugs, 12);
+    this.articles = await articleService.getArticles(this.section.slugs, ARTICLES_TO_DISPLAY);
     this.loading = false;
   },
   methods: {
