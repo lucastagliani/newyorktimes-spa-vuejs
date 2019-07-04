@@ -9,7 +9,7 @@ class ArticleService {
 
   isPossibleToHaveDuplicatedArticles = sections => sections.length > 1;
 
-  hasLimitDefined = limit => !limit;
+  hasLimitDefined = limit => limit;
 
   getArticlesWithLimit = (articles, limit) => articles.slice(0, limit);
 

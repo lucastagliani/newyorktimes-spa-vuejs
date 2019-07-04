@@ -40,9 +40,9 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 * Apesar de Angular 2+ com _typescript_ ser a estrutura de _front-end_ que tenho mais conhecimento, escolhi Vue.js com o objetivo de aproveitar este projeto para aprofundar meus conhecimentos nesta biblioteca que uso profissionalmente há 5 meses.
 * Bulma.io por ser uma biblioteca simples de CSS e ajudar na construção da interface;
 * axios para fazer as requisições HTTP na [API do "nytimes"](https://developer.nytimes.com/);
-* Mixpanel para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles; (linkar imagem "mixpanel-conversion-funil.png");
+* Mixpanel para monitorar o uso do sistema (quantos usuários estão visitando cada página, quais seções, etc), aprendendo com os dados gerados e habilitando a tomada de decisões a partir deles;
 
-![Image](mixpanel-conversion-funil.png "Mixpanel")
+![Image](extra-images/mixpanel-conversion-funil.png "Mixpanel")
 
 ## O que foi feito:
 
@@ -72,7 +72,7 @@ Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu t
 * Carregamento ocioso nos artigos de cada seção conforme o usuário fosse rolando a tela para baixo;
 * Melhorar tratamento de erros de API externa;
 * Uso de variáveis no CSS;
-* Testes funcionais e2e deveriam usar CYPRESS COMMANDS para requisitar seções ou artigos (mas para isto, deveríamos ter um maior controle da API, utilizando POSTs ou podendo fazer GET em artigos mais antigos) ao invés de fazer isto navegando pela página quando não fosse o principal a ser testado;
+* Testes funcionais e2e deveriam usar CYPRESS COMMANDS para requisitar seções ou artigos (mas para isto, deveríamos ter um maior controle da API, utilizando POSTs ou podendo fazer GET em artigos mais antigos) ao invés de fazer isto navegando pela página quando não fosse o principal a ser testado, também evitaria seletores duplicados entre os arquivos de testes de detalhe de seção e de artigo;
 * Testar views também de forma unitária, criando mocks para as camadas de serviço através das `props` dos componentes Vue;
 * Diversos TODOs no código;
 
@@ -106,7 +106,7 @@ _Se você já sabe como funciona um [Makefile](Makefile), pode dar uma olhada ne
 
 Em ambos casos, você poderá acessar o sistema em `http://localhost:3000` - A menos que a variável de ambiente `PORT` tenha algum valor customizado no seu computador.
 
-IMAGEM
+![Image](extra-images/how-to-run-it.png "How to run it")
 
 Para parar a execução do sistema, um CTRL + C no terminal deve bastar.
 
@@ -120,4 +120,4 @@ Ou se você quiserar parar corretamente o que foi executado na terceira opção,
 * Abrir testes funcionais: `npm run test:e2e` (necessário que a aplicação esteja rodando)
 * Executar lint e corrigir arquivos: `npm run lint`
 * Executar em modo de desenvolvimento: `npm run serve`
-* Gerar código compilado para publicação: `npm run build`
+* Gerar código compilado para publicação no diretório /dist: `npm run build`

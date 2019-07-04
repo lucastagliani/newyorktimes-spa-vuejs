@@ -33,7 +33,7 @@
 import NoDataToDisplay from '@/components/NoDataToDisplay.vue';
 import SectionCard from '@/components/SectionCard.vue';
 
-import sectionService from '@/services/sectionService';
+import SectionService from '@/services/sectionService';
 
 export default {
   name: 'home',
@@ -48,6 +48,7 @@ export default {
   },
   async mounted() {
     window.mixpanel.track('Load home');
+    const sectionService = new SectionService();
     this.sections = sectionService.getSections();
   },
   methods: {

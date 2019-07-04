@@ -58,7 +58,7 @@ import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 import Article from '@/model/article';
 
 import ArticleService from '@/services/articleService';
-import sectionService from '@/services/sectionService';
+import SectionService from '@/services/sectionService';
 
 import http from '@/http/nytimes';
 
@@ -98,8 +98,10 @@ export default {
   },
   methods: {
     async getArticleBasedOnParams(sectionName, title) {
-      const section = sectionService.getSectionByName(sectionName);
+      const sectionService = new SectionService();
       const articleService = new ArticleService(http);
+
+      const section = sectionService.getSectionByName(sectionName);
       const nytimesArticle = await articleService.getArticle(
         title,
         section.slugs,

@@ -53,7 +53,7 @@ import ArticleCard from '@/components/ArticleCard.vue';
 import NoDataToDisplay from '@/components/NoDataToDisplay.vue';
 
 import ArticleService from '@/services/articleService';
-import sectionService from '@/services/sectionService';
+import SectionService from '@/services/sectionService';
 
 import http from '@/http/nytimes';
 
@@ -75,6 +75,7 @@ export default {
   },
   async mounted() {
     const sectionName = this.$route.params.section;
+    const sectionService = new SectionService();
     this.section = sectionService.getSectionByName(sectionName);
 
     if (!this.section || !Object.keys(this.section).length) {

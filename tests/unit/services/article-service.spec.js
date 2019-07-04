@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import nytimesHttpMock from '../mocks/nytimes-http-mock';
 import ArticleService from '@/services/articleService';
 
-const WOULD_YOU_PAY_ENTIRE_ARTICLE = {
+const EXPECTED_WOULD_YOU_PAY_ENTIRE_ARTICLE = {
   section: 'Technology',
   subsection: '',
   title: 'Would You Pay $30 a Month to Check Your Email?',
@@ -83,7 +83,7 @@ const WOULD_YOU_PAY_ENTIRE_ARTICLE = {
   short_url: 'https://nyti.ms/2X1vOGo',
 };
 
-const TWO_MORE_RECENT_ARTICLES = [
+const EXPECTED_TWO_MORE_RECENT_ARTICLES = [
   {
     "section": "Business",
     "subsection": "",
@@ -265,7 +265,7 @@ describe('Article service:', async () => {
     it('should return 2 more recent articles for section "technology" and 2 as limit', async () => {
       const articles = await service.getArticles(['technology'], 2);
       expect(articles).to.be.an('array').with.lengthOf(2);
-      expect(articles).deep.to.equal(TWO_MORE_RECENT_ARTICLES);
+      expect(articles).deep.to.equal(EXPECTED_TWO_MORE_RECENT_ARTICLES);
     });
 
     it('should return 5 articles for two different sections and 5 as limit', async () => {
@@ -293,7 +293,7 @@ describe('Article service:', async () => {
     it('should return article for title "Would You Pay $30 a Month to Check Your Email?" and section "technology"', async () => {
       const title = 'Would You Pay $30 a Month to Check Your Email?';
       const article = await service.getArticle(title, ['technology']);
-      expect(article).to.deep.equal(WOULD_YOU_PAY_ENTIRE_ARTICLE);
+      expect(article).to.deep.equal(EXPECTED_WOULD_YOU_PAY_ENTIRE_ARTICLE);
     });
 
     it('should not return article for empty title', async () => {
