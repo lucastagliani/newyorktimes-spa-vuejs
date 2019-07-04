@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "start": "node server.js",
+    "start": "npm run build && node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
@@ -36,7 +36,6 @@
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "lint-staged": "^8.1.5",
-    "sinon": "^7.3.2",
     "vue-template-compiler": "^2.6.10"
   },
   "postcss": {
