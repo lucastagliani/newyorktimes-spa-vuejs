@@ -123,4 +123,4 @@ Ou se você quiserar parar corretamente o que foi executado na terceira opção,
 * Abrir testes funcionais: `npm run test:e2e` (necessário que a aplicação esteja rodando)
 * Executar lint e corrigir arquivos: `npm run lint`
 * Executar em modo de desenvolvimento: `npm run serve`
-* Gerar código compilado para publicação no diretório /dist: `npm run build`
+* Gerar código compilado para publicação no diretório "/dist": `npm run build`
