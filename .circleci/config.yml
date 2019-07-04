@@ -28,7 +28,7 @@ jobs:
       - setup_remote_docker
       - run: docker-compose build
       - run: docker-compose up -d
-      - run: docker exec newyorktimes-spa-vuejs npm run test:unit # TODO: install dependencies
+      - run: docker exec newyorktimes-spa-vuejs npm run test:unit
       - run: docker exec newyorktimes-spa-vuejs npm run test:e2e:headless
       - run: docker-compose down
 
