@@ -10,7 +10,7 @@ Publicado gratuitamente em: https://newyorktimes-spa-vuejs.herokuapp.com/
 
 Se este fosse um problema real, antes de começar qualquer desenvolvimento, eu teria feito as seguintes perguntas para pessoa que fosse dona do produto:
 
-1. Este sistema é a melhor maneira de manter a equipe da _Thoughtworks_ atualizada? Que outras maneiras seriam possíveis?
+1. Este sistema é a melhor maneira de manter a equipe atualizada? Que outras maneiras seriam possíveis?
 2. Se sim, como será a divulgação deste sistema para as pessoas da equipe?
 3. Existe algum dia do mês, da semana ou horário do dia que o sistema será acessado com mais frequência? Quão frequente você imagina que seja?
 4. Será mais acessado pelo celular ou pelo computador? E por _tablets_? Televisões? Algum outro dispositivo? Quais navegadores serão utilizados?
