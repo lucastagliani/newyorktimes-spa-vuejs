@@ -264,7 +264,6 @@ describe('Article service:', async () => {
 
     it('should return 2 more recent articles for section "technology" and 2 as limit', async () => {
       const articles = await service.getArticles(['technology'], 2);
-      expect(articles).to.be.an('array').with.lengthOf(2);
       expect(articles).deep.to.equal(EXPECTED_TWO_MORE_RECENT_ARTICLES);
     });
 
