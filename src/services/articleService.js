@@ -11,7 +11,13 @@ class ArticleService {
 
   hasLimitDefined = limit => limit;
 
-  getArticlesWithLimit = (articles, limit) => articles.slice(0, limit);
+  getArticlesWithLimit = (articles, limit) => {
+    if (!this.hasLimitDefined(limit)) {
+      return articles;
+    }
+
+    return articles.slice(0, limit);
+  }
 
   removeSomeSpecialChars = text => text.replace(/\//g, '').replace(/\?/g, '');
 
@@ -29,11 +35,17 @@ class ArticleService {
     return articles;
   };
 
-  getUniqueArticles = articles => articles.reduce((accumulator, current) => {
-    const duplicated = accumulator.find(item => item.short_url === current.short_url);
+  removeDuplicatedArticles = (sections, articles) => {
+    if (!this.isPossibleToHaveDuplicatedArticles(sections)) {
+      return articles;
+    }
 
-    return duplicated ? accumulator : accumulator.concat([current]);
-  }, []);
+    return articles.reduce((accumulator, current) => {
+      const duplicated = accumulator.find(item => item.short_url === current.short_url);
+
+      return duplicated ? accumulator : accumulator.concat([current]);
+    }, []);
+  };
 
   orderByPublishedDateDesc = (prev, next) => {
     const prevPublishedDate = prev.published_date;
@@ -52,16 +64,13 @@ class ArticleService {
       return [];
     }
 
+    // return sections.map(async s => await )
+
     let articles = await this.getArticlesFromSections(sections);
-    if (this.isPossibleToHaveDuplicatedArticles(sections)) {
-      articles = this.getUniqueArticles(articles);
-    }
 
+    articles = this.removeDuplicatedArticles(sections, articles);
     articles = articles.sort(this.orderByPublishedDateDesc);
-
-    if (this.hasLimitDefined(limit)) {
-      articles = this.getArticlesWithLimit(articles, limit);
-    }
+    articles = this.getArticlesWithLimit(articles, limit);
 
     return articles;
   };
