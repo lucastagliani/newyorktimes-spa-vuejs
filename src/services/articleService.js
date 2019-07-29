@@ -22,17 +22,10 @@ class ArticleService {
   removeSomeSpecialChars = text => text.replace(/\//g, '').replace(/\?/g, '');
 
   getArticlesFromSections = async (sections) => {
-    let articles = [];
+    const responses = await Promise.all(sections
+      .map(section => this.http.getTopStoriesFromSection(section)));
 
-    for (let i = 0; i < sections.length; i += 1) {
-      // TODO: await inside loop :'(
-      const result = await this.http.getTopStoriesFromSection(sections[i]);
-      if (result.data) {
-        articles = articles.concat(result.data.results);
-      }
-    }
-
-    return articles;
+    return responses.flatMap(response => response.data.results);
   };
 
   removeDuplicatedArticles = (sections, articles) => {
@@ -64,12 +57,11 @@ class ArticleService {
       return [];
     }
 
-    // return sections.map(async s => await )
-
     let articles = await this.getArticlesFromSections(sections);
 
-    articles = this.removeDuplicatedArticles(sections, articles);
-    articles = articles.sort(this.orderByPublishedDateDesc);
+    articles = this.removeDuplicatedArticles(sections, articles)
+      .sort(this.orderByPublishedDateDesc);
+
     articles = this.getArticlesWithLimit(articles, limit);
 
     return articles;
