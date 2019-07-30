@@ -22,22 +22,32 @@
           <div v-if="!hasArticlesToDisplay()">
             <NoDataToDisplay :message="'There is no articles here today.'" />
           </div>
-          <div v-if="hasArticlesToDisplay()" class="columns is-multiline">
-            <div
-              v-for="(item, index) in articles"
-              :key="item[index]"
-              class="column is-4-widescreen is-6"
-            >
-              <a @click="goToArticleDetails(item.title)" class="box card">
-                <ArticleCard
-                  :title="item.title"
-                  :context="item.subsection || item.section"
-                  :publishedDate="item.published_date"
-                  :shortUrl="item.short_url"
-                  :section="item.section"
-                  :byline="item.byline"
-                ></ArticleCard>
-              </a>
+          <div v-if="hasArticlesToDisplay()">
+            <div class="field">
+              <div class="control">
+                <InputSearch class="input"
+                  v-on:debounce="filterArticles($event)"
+                  placeholder="Find an article by title...">
+                </InputSearch>
+              </div>
+            </div>
+            <div class="columns is-multiline">
+              <div
+                v-for="(item, index) in filteredArticles"
+                :key="item[index]"
+                class="column is-4-widescreen is-6"
+              >
+                <a @click="goToArticleDetails(item.title)" class="box card">
+                  <ArticleCard
+                    :title="item.title"
+                    :context="item.subsection || item.section"
+                    :publishedDate="item.published_date"
+                    :shortUrl="item.short_url"
+                    :section="item.section"
+                    :byline="item.byline"
+                  ></ArticleCard>
+                </a>
+              </div>
             </div>
           </div>
         </template>
@@ -50,6 +60,7 @@
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 
 import ArticleCard from '@/components/ArticleCard.vue';
+import InputSearch from '@/components/InputSearch.vue';
 import NoDataToDisplay from '@/components/NoDataToDisplay.vue';
 
 import ArticleService from '@/services/articleService';
@@ -63,6 +74,7 @@ export default {
   name: 'section-details',
   components: {
     ArticleCard,
+    InputSearch,
     NoDataToDisplay,
     PulseLoader,
   },
@@ -70,6 +82,7 @@ export default {
     return {
       loading: true,
       articles: [],
+      filteredArticles: [],
       section: {},
     };
   },
@@ -86,6 +99,7 @@ export default {
     window.mixpanel.track('Load section', { section_name: this.section.name });
     const articleService = new ArticleService(http);
     this.articles = await articleService.getArticles(this.section.slugs, ARTICLES_TO_DISPLAY);
+    this.filteredArticles = { ...this.articles };
     this.loading = false;
   },
   methods: {
@@ -99,6 +113,9 @@ export default {
       this.$router.push({
         path: `/nyttop/${this.section.name}/${title.replace(/\//g, '')}`,
       });
+    },
+    filterArticles(term) {
+      this.filteredArticles = this.articles.filter(article => article.title.indexOf(term) > -1);
     },
   },
 };
