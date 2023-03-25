@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/lucastagliani/newyorktimes-spa-vuejs.svg?style=svg)](https://circleci.com/gh/lucastagliani/newyorktimes-spa-vuejs)
 
-Publicado gratuitamente em: https://newyorktimes-spa-vuejs.herokuapp.com/
+Publicado gratuitamente em: https://newyorktimes-spa-vuejs.herokuapp.com/ (offline since November 2022 because Heroku has no free plan anymore)
 
 * Este arquivo foi escrito em português e, apesar de ter vários termos da área de tecnologia da informação, evita estrangeirismos desnecessários para que não limite o seu compreendimento à pessoas que possuem conhecimento no idioma inglês.
 
